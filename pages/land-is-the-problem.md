@@ -1,3 +1,7 @@
 # Land is the Problem
 
-TODO: explain Georgism through series of questions and answers
+TODO
+
+Land is the source of all our problems, and the key to solving all of them.
+
+Explain Georgism through series of questions and answers.
