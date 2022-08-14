@@ -4,8 +4,14 @@ TODO
 
 Workflows at the level of hardware, software, and people.
 
-Imperative vs flow-based programming.
+Imperative vs functional/reactive programming.
 
-Prefect idea of positive vs negative engineering.
+Object-oriented vs procedural programming, data-oriented design.
+
+How to navigate an object-oriented codebase (classes as operators, input fields vs intermediate fields, method fragmentation)
+
+Prefect's idea of positive vs negative engineering.
 
 Gradual adoption of ideas from functional programming: maps, filters, reductions, promises, maybe monads.
+
+Future of programming (procedural, functional, Rust)
