@@ -15,6 +15,7 @@ A collection of mathematical concepts that will help you navigate the deep, dark
 - equilibria
 - objective functions
 - probability and risk
+- priors and stereotypes
 
 ## Categories and continuums
 
