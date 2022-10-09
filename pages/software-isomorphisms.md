@@ -16,3 +16,5 @@ TODO
 - Objects, closures (e.g. Builder, Command, Strategy)
 - Inheritance, composition
 - Tester-doer, try-parse, Option/Result
+- Variants (sum types), inheritance
+- Greenspun's tenth rule
