@@ -33,7 +33,23 @@ I've been able to find most of my mods on [Nexus](https://www.nexusmods.com/skyr
 
 ## Detecting Mod Conflicts
 
-TODO
+Mod conflicts happen when two mods edit the same content. For example, if one mod edits the name of a potion while another mod edits the effects of that potion, the two mods will conflict. In this case, whichever mod is loaded later will overwrite the other mod. A more common example is when two mods edit the same world space, such as a mod that overhauls city and a mod that makes a few changes to that city for a new quest. An even crazier conflict might be two mods that edit the animation system or combat AI, although I think it would still result in one mod overwriting the other.
+
+Once you go beyond a few mods, you will inevitably have conflicts, so it will be important for you to know how to detect them and resolve them. Now, I come from the world of software engineering, where we already have good tools and processes for resolving conflicts that occur when multiple engineers work on the same codebase. With mods, resolving conflicts is more of an art. I will walk you through some of the strategies that you can use.
+
+1. **Read the mod description for compatibility notes.** This one is the RTFM for modding. If you download a mod from Nexus, for example, always read the **Description** page in its entirety. The mod author will usually include a section on mod compatibility, especially if their mod is popular, and they will say whether a mod is compatible, and if not, if there is a patch.
+
+   Note, however, that the mod author can't test their mod with every other mod in existence. They will usually test the most commonly-used mods that are likely to conflict with theirs, and they might give some rules-of-thumb like "any mod that doesn't edit X location should be compatible". So if they don't mention a particular mod, you'll have to use your best judgement.
+
+2. **Check for compatibility patches.** Beyond the mod description, there are a few easy ways to check for patches.
+
+   In Nexus, there is a **Requirements** dropdown with a section called **Mods requiring this file**. You can quickly scan this section to see if there are any patches for other mods that you use. You can also check the **Files** section for patches from the mod author, although they usually mention these patches in the mod description.
+
+   You can use LOOT to search for mod conflicts and patches. While LOOT is primarily used to sort mods, it also maintains a registry of known mod conflicts and patches, and it will flag these for you. I don't even use LOOT for sorting (more on that later). LOOT's registry contains much of the information you would have found on Nexus, so it's a good way to catch anything you missed. That being said, don't let it become a crutch -- you should still always read the mod descriptions.
+
+3. **Understand how different kinds of mods interact.** Ultimately, you'll want to gain an intuition for the different mod "categories" and which kinds of mods are likely to conflict with each other. This intuition can't be taught, but you will learn over time as you research mods. See my section below on [mod categories](#mod-categories).
+
+   For what it's worth, most of the patches in my mod list are between city overhauls and quest mods. I also spent a long time figuring out which combat mods I could use together, but it turns out that "combat" encompass multiple aspects of the game that are (mostly) independent from each other, so I didn't need very many combat-related patches.
 
 ## Debugging Crashes
 
@@ -135,8 +151,10 @@ The Alternative Armors collection was probably my favorite CC content, because o
 
 - Adventurer's Backpack
 - Alternative Armors (all 15 of them)
+- Arcane Archer Pack
 - Bittercup
 - Camping
+- Expanded Crossbow Pack
 - Fishing
 - Shadowrend
 - Survival Mode
@@ -145,7 +163,6 @@ The Alternative Armors collection was probably my favorite CC content, because o
 
 Like I said before, all of these mods are good mods, and any of them would make a fine addition to the right playthrough. Many of the CC mods add artifacts from previous games, artifacts that have already been added by other mods such as [Legacy of the Dragonborn](https://www.nexusmods.com/skyrimspecialedition/mods/11802) (LotD). I have marked these mods as such. In general, I prefer LotD and other mods over the CC versions for how they introduce these artifacts into the game.
 
-- Arcane Archer Pack
 - Arms of Chaos
 - Bloodchill Manor
 - Bone Wolf
@@ -156,7 +173,6 @@ Like I said before, all of these mods are good mods, and any of them would make 
 - Dead Man's Dread (use LotD instead)
 - Divine Crusader (use LotD instead)
 - Elite Crossbows
-- Expanded Crossbow Pack
 - Farming
 - Fearsome Fists
 - Gallows Hall
@@ -199,4 +215,3 @@ Like I said before, all of these mods are good mods, and any of them would make 
 - Rare Curios
 - Ruin's Edge
 - Staff of Sheogorath
-
