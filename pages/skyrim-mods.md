@@ -8,6 +8,16 @@ And I must say, Skyrim modding has come an incredibly long way. It has reached h
 
 Consider this page a "living research report", in which I maintain my knowledge of mods across the various aspects of Skyrim, as well as some notes about modding Skyrim in general, like how to detect potential mod conflicts, how to find patches, how to deal with crashes, etc.
 
+## Table of Contents
+
+- [Tools](#tools)
+- [Discovering Mods](#discovering-mods)
+- [Detecting Mod Conflicts](#detecting-mod-conflicts)
+- [Debugging Crashes](#debugging-crashes)
+- [Selecting Mods](#selecting-mods)
+  - [Mod Categories](#mod-categories)
+  - [What About Creation Club?](#what-about-creation-club)
+
 ## Tools
 
 It's not just the mods themselves that have improved, it's the tools as well. Here's a list of which tools to use for which purpose, to the best of my understanding:
@@ -53,7 +63,25 @@ Once you go beyond a few mods, you will inevitably have conflicts, so it will be
 
 ## Debugging Crashes
 
-TODO
+Skyrim can crash for a lot of different reasons, so the solution will depend on the nature of the crash. The [/r/SkyrimMods](https://www.reddit.com/r/skyrimmods/wiki/troubleshooting_guide/) troubleshooting guide is the most comprehensive guide that I have found. In fact, I learned much of what I know through the guides on that subreddit, and I only hope to provide a gentler overview on this page.
+
+First things first, you should take steps to prevent crashes in the first place:
+
+- WHen you install a mod, make sure to install all of its dependencies. On Nexus, you can find a mod's dependencies under the **Requirements** dropdown, and Nexus will usually alert you about them anyway when you go to download a mod.
+
+- Make sure your mod plugins are ordered sensibly: ESMs should be first, plugins should not be missing any required plugins, and plugins should come after their required plugins. In MO2, you can check all of these things under the **Plugins** tab. Plugins will show an alert icon if they are missing any dependencies.
+
+- In general, just follow the mod author's instructions for every mod you download, no matter how tedious it feels. Do it *when you install the mod* -- if you push it off, you are much more likely to forget something. I cannot stress this point enough. It is much harder to debug a crash caused by a misconfigured mod, than it is to install the mod correctly the first time.
+
+Hopefully these measures will save you from 90% of crashes. But, if you are using hundreds of mods, your game will still probably crash from time to time. Even with the best mod hygiene, you still need to know how to debug. So, here are some options:
+
+- You can use the [.NET Script Framework](https://www.nexusmods.com/skyrimspecialedition/mods/21294) to generate an error log whenever your game crashes. It's like a plugin, but for the *game engine* rather than the game world. When your game crashes, you'll find a new error log with a bunch of diagnostic information. The error log can help you find the root cause by identifying plugins that may have contributed to the crash.
+
+- In some cases, you might be able to use context clues to figure out the root cause. Does the game always crash in a particular area? Or at a particular stage in a quest? Or when a particular event happens? If you suspect a particular mod, disable the mod and try to reproduce the crash.
+
+- If all else fails, your final option is to disable and re-enable mods one at a time until you reproduce the crash. It is the "brute force" approach, and it's last because it's the most time-consuming. To save some time, disable half of your mods at a time until the crash doesn't happen. Then, re-enable each mod from the last "half", one at a time, until the crash happens again. This approach should allow you to figure out just about any remaining crash.
+
+I learned some of these lessons the hard way. While I did try to install everything correctly, I forgot to scrutinize my plugin order because I thought Mod Organizer was syncing it with my mod order, when in fact these two things are independent. Somehow, my game still worked for a while, and I suspect that the game engine is able to handle some basic ordering issues on-the-fly. But, as I explored more of the world, I began to experience more crashes and other weirdness. I fixed most of these issues by correcting my load order and adding a few patches I had been missing (they were flagged by LOOT). The .NET Script Framework helped me identify a few mods that were consistently causing crashes, and I usually ended up removing these mods.
 
 ## Selecting Mods
 
