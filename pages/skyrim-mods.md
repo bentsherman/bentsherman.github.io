@@ -99,19 +99,29 @@ Navigating the great sea of mods is much easier once you have an idea of the mai
 
 #### Bug Fixes
 
-TODO
+The most commonly used bugfix mods by far are Arthmoor's Unofficial Skyrim Special Edition Patch (USSEP) and Cutting Room Floor (CRF). USSEP fixes a bunch of bugs while CRF adds a bunch of extra content that was in the game files but removed from the world. I could probably live without these mods, but I use them anyway because some mods depend on them.
 
-#### Audio
+If you're using SKSE, there are a bunch of SKSE plugins out there that provide various "fixes" and "tweaks" to the game engine. The only one that I've used thus far is SSE Engine Fixes, because it actually prevents certain kinds of crashes. Beyond that, I haven't found any consensus on what other "tweaks" plugins are worthwhile, or tested any of them myself. Otherwise, I only use another bugfix plugin if it's required by another mod (e.g. powerofthree's Tweaks).
 
-TODO
-
-#### Utilities
-
-TODO (?)
+- Cutting Room Floor
+- SSE Engine Fixes
+- Unofficial Skyrim Special Edition Patch
 
 #### User Interface
 
-TODO
+I'm pretty happy with the UI mods that I've settled on. All of these mods are solid, and they work together seamlessly.
+
+I'll just highlight some of my favorites. Alternate Conversation Camera gives you an Oblivion-style dialogue zoom that feels more immersive (IMO). Immersive HUD allows you to keep your screen entirely HUD-free, while only displaying HUD elements when they are needed. Sovngarde is a font that feels much more like Elder Scrolls. The Loading Screens mod adds a bunch of beautiful and lore-friendly loading screens based on artwork from Elder Scrolls Legends.
+
+- Alternate Conversation Camera
+- Fuz Ro D-oh - Silent Voice
+- Immersive HUD
+- Nordic UI
+- SkyHUD
+- SkyUI
+- Sovngarde - A Nordic Font
+- The Elder Scrolls Legends - Loading Screens
+- TrueHUD - HUD Additions
 
 #### Gameplay: Animation
 
@@ -122,6 +132,10 @@ TODO
 TODO
 
 #### Gameplay: Mechanics
+
+TODO
+
+#### Audio
 
 TODO
 
@@ -160,10 +174,6 @@ TODO
 #### Quests: New Locations
 
 TODO
-
-#### Patches
-
-TODO (?)
 
 ### What About Creation Club?
 
