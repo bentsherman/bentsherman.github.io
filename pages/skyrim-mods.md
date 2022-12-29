@@ -270,7 +270,7 @@ All of these mods are highly regarded, and you'll probably find them on most mod
 
 #### Environment
 
-Environmental mods mainly add content to the natural world (e.g. trees, grass, water, fog), but may also include new models and textures. Here are the mods I currently use:
+Environmental mods mainly add content to the natural world (e.g. trees, grass, water), but may also include new models and textures. Here are the mods I currently use:
 
 - Folkvangr
 - Happy Little Trees
@@ -282,6 +282,55 @@ Environmental mods mainly add content to the natural world (e.g. trees, grass, w
 
 Another popular water mod is Water for ENB. I honestly couldn't tell you which one I like more, they both look really good to me, but you should use one or the other.
 
+#### Locations
+
+Location, location, location. Yet another category that took me forever to decide on. There are so many cool city overhauls, and I wish I could have them all at once, but alas, I must choose.
+
+The most popular city overhauls that I have found are JK's Skyrim, Dawn of Skyrim, Cities of the North, and The Great Cities. Although I haven't actually tried it, I believe it is possible to use all of these mods together with only two patches -- one patch for JK and DoS, and another patch called The Great Cities of JK's North. These patches are possible mainly because the four mods are somewhat complementary -- JK adds clutter and small details, DoS overhauls the major cities, and CotN and TGC overhaul the minor cities and towns.
+
+So, if you want to keep things simple while achieving maximum coverage, try this combo and be done with it.
+
+But if you want to take things further, there are some really good expansion mods for Solidute, Whiterun, and Windhelm. The easiest way to introduce them into the mix is to remove JK's Skyrim and instead use [JK's Markarth](https://www.nexusmods.com/skyrim/mods/58283) and [JK's Riften](https://www.nexusmods.com/skyrim/mods/58489). Or, you might be able to keep JK's Skyrim if you can find a patch for each city overhaul. I haven't tried the latter approach yet because I ran out of patience. I don't know how you would keep DoS at this point.
+
+Finally, there are overhauls for various other locations. I haven't checked all of these mods for compatibility with JK's Skyrim since I resorted to using JK's individual mods anyway. Here is my current list:
+
+- Better Tel Mithryn
+- Capital Whiterun Expansion
+- Capital Windhelm Expansion
+- Cities of the North - Dawnstar
+- Cities of the North - Falkreath
+- Cities of the North - Morthal
+- Cities of the North - Winterhold
+- Cities of the North Addon - Anga's Mill
+- Cities of the North Addon - Half-Moon Mill
+- City Entrances Overhaul - Markarth
+- City Entrances Overhaul - Windhelm
+- Enhanced Solitude
+- Enhanced Solitude Docks
+- Greater Skaal Village
+- Grey Quarter Expansion
+- Immersive Fort Dawnguard
+- JK's High Hrothgar
+- JK's Markarth
+- JK's Riften
+- JK's Riverwood
+- JK's Sky Haven Temple
+- Nordic Ruins of Skyrim
+- Obscure's College of Winterhold
+- Palaces and Castles Enhanced
+- Quaint Raven Rock
+- The Great Cities - Minor Cities and Towns
+- The Great Settlement of Darkwater Crossing
+- The Great Settlement of Kolskeggr Mine
+- The Great Town of Ivarstead
+- The Great Town of Karthwasten
+- The Great Town of Shor's Stone
+- The Great Village of Kynesgrove
+- The Great Village of Mixwater Mill
+- The Great Village of Old Hroldan
+
+In my next iteration, I will try to include JK's Skyrim and all of JK's interior mods. I might still be able to keep the individual city overhauls depending on compatibility with quest mods. I will probably have to drop Enhanced Solitude and/or the Docks, which might be for the best anyway since those mods are a bit much for my machine.
+
 #### NPCs: Body, Face, and Hair
 
 TODO
@@ -291,10 +340,6 @@ TODO
 TODO
 
 #### NPCs: Population
-
-TODO
-
-#### Locations
 
 TODO
 
