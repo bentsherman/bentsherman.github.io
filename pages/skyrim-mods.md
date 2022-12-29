@@ -168,7 +168,7 @@ Because of the flurry of new combat mods each year, there are a few mods I haven
 
 This category is kind of a catch-all for other gameplay mods. Like combat, "gameplay" encompasses lots of different things.
 
-Andromeda, Odin, and Vokrii are part of the "EnaiRim" collection of gameplay mods by the modder Enai. I haven't gone very far down the EnaiRim rabbit hole, but these mods stood out to me and so far I've enjoyed them. Maybe one day I'll try some of his more heavyweight mods like Ordinator and Requiem.
+Andromeda, Odin, and Vokrii are part of the "EnaiRim" collection of gameplay mods by the modder Enai. I haven't gone very far down the EnaiRim rabbit hole, but these mods stood out to me and so far I've enjoyed them. Maybe one day I'll try some of his more heavyweight mods like Apocalypse and Ordinator.
 
 ALl of the other mods are also worth highlighting. Simply Knock allows you to enter a locked building by asking the owner to let you in. Sojourn Over Signposts makes fast travel allowed only by interacting with a signpost, forcing you to move through the world instead of the map menu. Take a Peek allows you to peek through the keyhole of a door and see what's on the other side. Wet and Cold makes NPCs wear cloaks and hoods when it rains or snows, and also makes them run inside during storms. All of these mods are among my favorites for their simplicity and the clear value they add to the game.
 
@@ -194,14 +194,15 @@ Other notable mods include Immersive Sounds and the Unofficial HD Audio Project.
 - SSE High Quality Music
 - SSE High Quality Voices
 
-#### Visuals and Lighting
+#### Visuals
 
-Lighting is another category that took me a while to research, and one that I will continue to experiment with as I understand it better. Like combat, there are multiple aspects to lighting, so you really have a lighting "stack". There are multiple options for each layer in the stack, and some mods are designed to "play well" with specific mods from other layers. Also, each layer is optional, so you can decide how far you want to go with the graphics overhauls.
+Visual mods are another category that took me a while to research, and one that I will continue to experiment with as I understand it better. Like combat, there are multiple aspects to lighting, so you really have a lighting "stack". There are multiple options for each layer in the stack, and some mods are designed to "play well" with specific mods from other layers. Also, each layer is optional, so you can decide how far you want to go with the graphics overhauls.
 
 First, pick your ENB preset. [ENB](http://enbdev.com/) itself is a library that adds a bunch of fancy effects to the game engine's graphics pipeline, like Depth of Field and Sun Rays. To enable these effects, you have to configure ENB, but most people just use a preset created by someone else who knows what they're doing. Here are some notable options:
 
 - Bjorn ENB-Reshade
 - Rudy ENB
+- Silent Horizons ENB
 - SkyrimSE Re-Engaged ENB
 
 Next, pick your ReShade preset. [ReShade](https://reshade.me/) is another library that adds graphics effects to video games, similar to ENB. I'm not really sure how they are different, but there appears to be some consensus around using ENB and ReShade together. Some notable options:
@@ -213,7 +214,9 @@ Next, pick your ReShade preset. [ReShade](https://reshade.me/) is another librar
 
 Next, pick a weather mod. Weather mods overhaul everything about the weather in Skyrim to give it a certain look and feel, from the sky textures to storm audio effects to ambient lighting for each weather type. Some notable options:
 
+- Aequinoctium - Weathers and Seasons
 - Cathedral Weathers and Seasons
+- Natural and Atmospheric Tamriel (NAT)
 - Obsidian Weathers and Seasons
 
 Next, pick a lighting mod. Lighting mods make light sources (e.g. torches, lanterns, fire pits) and their shadows more pronounced, making the game feel darker overall but also more dynamic. Lighting mods typically have separate interior and exterior components, and they tend to require patches for everything. But they are worth it!
@@ -244,11 +247,40 @@ Finally, there are a few more lighting mods that are good to have in general:
 
 #### Models and Textures
 
-TODO
+Models (aka meshes) and textures are the 3D and 2D assets that comprise everything you see in the game world, from the landscape and the sky to buildings and items and people. Basically every Elder Scrolls game ships with mediocre assets, probably so that they can push the limits on other fronts like world size and AI complexity. Inevitably, modders bring higher resolutions and polygon counts to each game, but some modders also take the opportunity to create their own look and feel, especially with textures. You can make Skyrim look like a [very different game](https://www.nexusmods.com/skyrim/mods/33017) with only a texture pack.
+
+Model and texture mods can be divided into "base" mods that cover everything and "additional" mods that cover only a subset of objects. The small mods tend to be more focused and detailed, and more subject to individual preferences. A good practice is to apply your "base" mods first, then apply any smaller mods to suit your taste.
+
+For models, start with Static Mesh Improvment Mod (SMIM) and High Poly Project (HPP). These mods simply improve all 3D models throughout the game. For textures, there are a plethora of "all-in-one" texture packs to choose from:
+
+- CleverCharff’s AIO
+- Noble Skyrim
+- Pfuscher’s Skyrim 202X
+- Skyland AIO
+
+I use Pfuscher's Skyrim followed by Noble Skyrim. For "additional" mods, I will just list the few that I currently use:
+
+- aMidianBorn Book of Silence
+- Blended Roads
+- Daedric Shrines - All in One
+- Embers HD
+- Majestic Mountains Lightside
+
+All of these mods are highly regarded, and you'll probably find them on most mod lists. Beyond that, there is an endless stream of mods for weapons, armor, flora, clutter, furniture, creatures, and so on, and you really have to figure out for yourself which ones you like. A good strategy is to find modders that you like and keep up with their mod releases, which should make it easier to create a consistent look and feel for your game. Some well-known modders include [DrJacopo](https://www.nexusmods.com/skyrimspecialedition/users/50222836), [ElSopa](https://www.nexusmods.com/skyrimspecialedition/users/6960827), [mathy79](https://www.nexusmods.com/skyrimspecialedition/users/12770808), and [rudy102](https://www.nexusmods.com/skyrimspecialedition/users/93362). I'm content at the moment with the base texture overhauls, so I don't use anything else, but if I ever go further down the rabbit hole, I'll probably start with these modders.
 
 #### Environment
 
-TODO
+Environmental mods mainly add content to the natural world (e.g. trees, grass, water, fog), but may also include new models and textures. Here are the mods I currently use:
+
+- Folkvangr
+- Happy Little Trees
+- Morning Fogs
+- Origins of the Forest
+- Origins of the Forest Reduced
+- Realistic Water Two
+- Volumetric Mists
+
+Another popular water mod is Water for ENB. I honestly couldn't tell you which one I like more, they both look really good to me, but you should use one or the other.
 
 #### NPCs: Body, Face, and Hair
 
