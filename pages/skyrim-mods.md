@@ -182,11 +182,65 @@ ALl of the other mods are also worth highlighting. Simply Knock allows you to en
 
 #### Audio
 
-TODO
+Audio mods typically either improve or replace existing sounds, or add new sounds, where "sounds" could be sound effects, dialogue, or music. Despite my background as a musician, I am not the stereotypical "audiophile" -- I don't keep all my music in a lossless format or listen to everything with ultra-high quality headphones. So I probably don't fully appreciate the quality improvement mods like Ludicity, HQ Music, and HQ Voices. However, I do appreciate the new sound effects added by Sounds of Skyrim (one of the first mods I ever used), and I can certainly appreciate the new bard music provided by Badass Bard Songs.
+
+Other notable mods include Immersive Sounds and the Unofficial HD Audio Project. They look like excellent mods, I just don't use them because they are incompatible with my current setup.
+
+- BA Bard Songs
+- Bandit Lines Expansion
+- Lucidity Sound FX
+- Reverb and Ambiance Overhaul
+- Sounds of Skyrim Complete
+- SSE High Quality Music
+- SSE High Quality Voices
 
 #### Visuals and Lighting
 
-TODO
+Lighting is another category that took me a while to research, and one that I will continue to experiment with as I understand it better. Like combat, there are multiple aspects to lighting, so you really have a lighting "stack". There are multiple options for each layer in the stack, and some mods are designed to "play well" with specific mods from other layers. Also, each layer is optional, so you can decide how far you want to go with the graphics overhauls.
+
+First, pick your ENB preset. [ENB](http://enbdev.com/) itself is a library that adds a bunch of fancy effects to the game engine's graphics pipeline, like Depth of Field and Sun Rays. To enable these effects, you have to configure ENB, but most people just use a preset created by someone else who knows what they're doing. Here are some notable options:
+
+- Bjorn ENB-Reshade
+- Rudy ENB
+- SkyrimSE Re-Engaged ENB
+
+Next, pick your ReShade preset. [ReShade](https://reshade.me/) is another library that adds graphics effects to video games, similar to ENB. I'm not really sure how they are different, but there appears to be some consensus around using ENB and ReShade together. Some notable options:
+
+- Bjorn ENB-Reshade
+- Nolvus Reshade
+
+(Note that Bjorn includes both an ENB preset and a ReShade preset.)
+
+Next, pick a weather mod. Weather mods overhaul everything about the weather in Skyrim to give it a certain look and feel, from the sky textures to storm audio effects to ambient lighting for each weather type. Some notable options:
+
+- Cathedral Weathers and Seasons
+- Obsidian Weathers and Seasons
+
+Next, pick a lighting mod. Lighting mods make light sources (e.g. torches, lanterns, fire pits) and their shadows more pronounced, making the game feel darker overall but also more dynamic. Lighting mods typically have separate interior and exterior components, and they tend to require patches for everything. But they are worth it!
+
+Interior lighting mods:
+
+- Enhanced Lights and FX (ELFX)
+- Lux
+
+Exterior lighting mods:
+
+- ELFX Exterior
+- Lux Orbis
+- Lux Via
+- Tamriel Master Lights
+
+My current "stack" is Rudy ENB, Nolvus Reshade, Obsidian Weathers, and ELFX (Interiors and Enhancer only). I haven't picked an exterior lighting mod yet -- I'm considering Tamriel Master Lights, but I'm afraid of all the patches I might need. I got this mod combination from Heavy Burns, who spent a lot more time than me experimenting with visual mods. However, now that I have more experience on my own, the next combination I'd like to try is Bjorn, Cathedral, and Lux.
+
+It is typical for ENB preset authors to create patches for specific weather and lighting mods. For example, since I use Rudy ENB, Obsidian Weathers, and ELFX, I also use the "Rudy ENB for Obsidian Weathers and ELFX" patch.
+
+Finally, there are a few more lighting mods that are good to have in general:
+
+- ENB Grass Collisions
+- ENB Light
+- ENB Lights for Effects Shaders
+- Enhanced Volumetric Lighting and Shadows (EVLaS)
+- Window Shadows
 
 #### Models and Textures
 
