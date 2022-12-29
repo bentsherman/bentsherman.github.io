@@ -97,6 +97,8 @@ The point is, if you care about a save game, you should care about the mods you 
 
 Navigating the great sea of mods is much easier once you have an idea of the main categories and the choices that you have within each category. Here I will walk you through the main categories that I use to organize my mods. At this point I've mostly converged with the Nexus categories, but I only get as detailed as I need for it to be helpful.
 
+*NOTE*: This section is not an exhaustive mod list. In particular, I didn't include all of the dependencies required to use these mods. As always, make sure you follow the installation instructions for every mod you use.
+
 #### Bug Fixes
 
 The most commonly used bugfix mods by far are Arthmoor's Unofficial Skyrim Special Edition Patch (USSEP) and Cutting Room Floor (CRF). USSEP fixes a bunch of bugs while CRF adds a bunch of extra content that was in the game files but removed from the world. I could probably live without these mods, but I use them anyway because some mods depend on them.
@@ -125,15 +127,58 @@ I'll just highlight some of my favorites. Alternate Conversation Camera gives yo
 
 #### Gameplay: Animation
 
-TODO
+It feels like the Skyrim animation modding scene exploded after the pandemic. Thanks to tools like Nemesis and DAR, modders have been able to use animations in some really cool ways. Note that some of the combat mods also involve animation, but I listed them under the Combat section.
+
+At some point I'm going to try out [EVG Animated Traversal](https://www.nexusmods.com/skyrimspecialedition/mods/63232) and all the downstream mods that incorporate it into the world.
+
+- EVG Animation Variance
+- EVG Conditional Idles
+- EVG Pristine Vanilla Movement
+- Immersive Interactions
+- Take a Seat
 
 #### Gameplay: Combat
 
-TODO
+Out of all the categories, I think the combat mods took the longest for me to figure out. It was difficult in part because "combat" encompasses things like animation, behavior, AI, and mechanics, so it was hard to figure out which mods could be used together.
+
+Here are some highlights. SkySA introduces "attack commitment", which causes you to step into every attack you make. TK Dodge allows you to... dodge. True Directional Movement introduces several features, including 360 degree movement and enemy tracking. Ultimate Combat makes enemies more aggresive and strategic in combat. ZUPA introduces a potion drinking animation, so that you can't spam healing potions during combat.
+
+All in all, these mods make the combat in Skyrim feel more like The Witcher 3 or Dark Souls. These games have a much better third-person combat experience (IMO) because they give you more tools (e.g. dodging and parrying) and require you to play smarter in order to win. In fact, if you only play Skyrim in first-person, then most of these mods will not affect you. On the other hand, maybe you're playing in first-person because third-person is actually bad, and these mods just might make you switch.
+
+- Hellblade - Timed Block
+- Precision - Accurate Melee Collisions
+- Shield Of Stamina - Blocking Redux
+- SkySA
+- SkySA Movesets
+- SmoothCam
+- SmoothCam Modern Camera Preset
+- TK Dodge RE
+- True Directional Movement
+- Ultimate Combat
+- zxlice ultimate potion animation (ZUPA)
+
+Because of the flurry of new combat mods each year, there are a few mods I haven't tried yet:
+
+- [Attack MCO](https://www.skyrim-guild.com/mods/attack) (would replace SkySA)
+- [Dodge MCO](https://www.skyrim-guild.com/mods/dodge) (would replace TK Dodge)
+- [SCAR](https://www.nexusmods.com/skyrimspecialedition/mods/72014)
+- [Valhalla Combat](https://www.nexusmods.com/skyrimspecialedition/mods/64741) (would replace Hellblade, Shield of Stamina)
 
 #### Gameplay: Mechanics
 
-TODO
+This category is kind of a catch-all for other gameplay mods. Like combat, "gameplay" encompasses lots of different things.
+
+Andromeda, Odin, and Vokrii are part of the "EnaiRim" collection of gameplay mods by the modder Enai. I haven't gone very far down the EnaiRim rabbit hole, but these mods stood out to me and so far I've enjoyed them. Maybe one day I'll try some of his more heavyweight mods like Ordinator and Requiem.
+
+ALl of the other mods are also worth highlighting. Simply Knock allows you to enter a locked building by asking the owner to let you in. Sojourn Over Signposts makes fast travel allowed only by interacting with a signpost, forcing you to move through the world instead of the map menu. Take a Peek allows you to peek through the keyhole of a door and see what's on the other side. Wet and Cold makes NPCs wear cloaks and hoods when it rains or snows, and also makes them run inside during storms. All of these mods are among my favorites for their simplicity and the clear value they add to the game.
+
+- Andromeda - Unique Standing Stones of Skyrim
+- Odin - Skyrim Magic Overhaul
+- Simply Knock
+- Sojourn Over Signposts - Witcher-Style Fast Travel Alternative
+- Take a Peek - New Stealth Mechanic
+- Vokrii - Minimalistic Perks of Skyrim
+- Wet and Cold
 
 #### Audio
 
