@@ -331,17 +331,63 @@ Finally, there are overhauls for various other locations. I haven't checked all 
 
 In my next iteration, I will try to include JK's Skyrim and all of JK's interior mods. I might still be able to keep the individual city overhauls depending on compatibility with quest mods. I will probably have to drop Enhanced Solitude and/or the Docks, which might be for the best anyway since those mods are a bit much for my machine.
 
-#### NPCs: Body, Face, and Hair
+#### NPCs
 
-TODO
+NPC mods include body / face / hair replacers, companions, and population mods.
 
-#### NPCs: Companions
+I don't care that much about body mods because everyone is almost always clothed anyway. At least, they are in *my* playthroughs. If you want a body mod, CBBE is a good place to start, at least for female bodies. As for face and hair replacers, here are a few good options:
 
-TODO
+- Bijin Warmaidens
+- Cathedral Player and NPC Overhaul
+- Diversity - A Character Overhaul
+- High Poly NPC Overhaul
+- Modpocalypse NPCs
+- Pandorable's NPCs
+- RS Children Overhaul
+- TK Children
 
-#### NPCs: Population
+I use Diversity and RS Children (as well as Realistic RS Children), which provides a good vanilla-friendly uplift to basically every NPC in the game. Cathedral also looks really good to me. A lot of face and hair mods make everything too smooth for my taste, or they only update a few characters, leaving everyone else to wallow in their relative ugliness. But to each their own.
 
-TODO
+Some of my favorite mods are companion mods. If you decide not to mess with any mods, then at the very least, pick a good companion mod (or three) and start a new game. Some of these companions will really enrich your time in the game world, and they'll surprise you with some of the things they say. As much as I love playing with graphics and combat mods in Skyrim, the things that always keep me interested are good stories and *good characters*.
+
+Here are the companions I've played with and enjoyed:
+
+- INIGO
+- Lucien
+- Sofia
+- Song of the Green (Auri Follower)
+- Vilja in Skyrim
+
+Some other mods that I haven't tried yet:
+
+- Ambriel - The Lost Princess
+- Arissa - The Wandering Rogue
+- Aurlyn Dawnstone - The Reclusive Philosopher
+- Hoth
+- Kaidan 2
+- Mirai - the Girl with the Dragon Heart
+- Nebarra
+- Recorder
+- Serana Dialogue Add-On
+- Shirley
+- Skeever
+
+The biggest question I had with companion mods was how to have more than one follower at a time. As it turns out, most of these companion mods implement their own "follower quest", which means that these companions don't use the default follower quest and therefore aren't beholden to any follower limits. So you could have all of these companions follow you at the same time and still have one vanilla follower.
+
+That being said, I still ended up using a follower framework, specifically Nether's Follower Framework, to remove this limit and take advantage of some other nice features. There are several such frameworks, and I'm sure they all work just as well, but NFF seemed to me like the most lightweight option. I think my favorite feature in NFF is that your followers will "sandbox" (e.g. sit down, order food and drink, use crafting stations) whenever you remain in one area. This behavior is much more immersive than *standing right behind you* at all times.
+
+Finally, I use a variety of "population" mods that make the general population more interesting, either by improving the AI of existing NPCs or adding new NPCs:
+
+- Citizens of Tamriel
+- Immersive Citizens - AI Overhaul
+- Immersive Patrols
+- Interesting NPCs (3DNPC)
+- Populated Dungeons Caves Ruins
+- Populated Forts Towers Places
+
+CoT and 3DNPC collectively add hundreds of unique NPCs to the game, with tons of dialogue and quests. Based on what I've seen so far in my current playthrough, many of these NPCs rival or exceed their vanilla counterparts with their personalities and backstories. ICAIO overhauls the behavior and schedules of many vanilla NPCs to be more realistic (Sinmir actually leaves the Bannered Mare from time to time).
+
+I initially used the entire Populated series of mods because I wanted to have *tons* of generic NPCs like the Witcher 3. These mods add generic NPCs to cities and towns and roads, hostile NPCs and creatures to dungeons, and huge civil war battles across the map. After playing for a while, some of these mods started to cause weird crashes (possibly an incompatibility with other mods) and had to be removed. Also, I realized that the unique NPCs from CoT and 3DNPC, although fewer in number, added so much more to my gameplay experience than the generic NPCs, and in fact were plentiful enough to make the world feel more "populated". In the end, I only kept the dungeon-related mods, since they provide a necessary difficulty bump to compensate for all of my new companions.
 
 #### Quests: Existing Locations
 
