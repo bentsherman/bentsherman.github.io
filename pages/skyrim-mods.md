@@ -1,12 +1,12 @@
 # Skyrim Modding Research
 
-I've been a fan of The Elder Scrolls since I was in elementary school. To the extent that I am a gamer, it's mostly because I have sunk thousands of hours into these games. That's why I continue to play these games 10, 15, 20 years after they are released, and I'll probably keep playing them for the rest of my life.
+I've been playing Elder Scrolls games since I was in elementary school. To the extent that I am a gamer, it's mostly because I've' sunk thousands of hours into these games. That's why I continue to play them 10, 15, 20 years later, and I'll probably keep playing them for the rest of my life.
 
-That being said, I have never gone deep with my own mod setup for Skyrim. I installed a few mods from the Steam workshop a few years ago, mostly for a gag playthrough where dragons were trains, mudcrabs had top hats, and my primary weapons were a lightsaber and a Dwemer longrifle. And every time an NPC said something about arrows to the knee, or sweetrolls, or the Cloud District... they received "divine punishment". And a few quest mods, but they mostly turned out to be just okay. Now that I was finally settled in my new home, I decided I was ready to pursue a new mod setup in earnest.
+That being said, I've never gone deep with my own mod setup for Skyrim. I installed a few mods from the Steam workshop a few years ago, mostly for a gag playthrough with trains for dragons, mudcrabs with top hats, lightsabers, a Dwemer longrifle, "divine punishment" for any NPC who said anything about arrows to the knee, or sweetrolls, or the Cloud District... and some quest mods that turned out to be just okay. After getting married, finishing my PhD, and moving to Texas, I decided I was ready to pursue a new mod setup in earnest.
 
-And I must say, Skyrim modding has come an incredibly long way. It has reached heights I did not expect. I was overwhelmed by the vast sea of _really good mods_ out there. Fortunately, I just completed a dissertation, so I was experienced in carrying out long bouts of research. I endeavoured to find the best mods in every category and build my own ultimate modded Skyrim.
+And I must say, Skyrim modding has come an incredibly long way. It has reached heights I did not expect. I was overwhelmed by the vast sea of *really good mods* out there. Fortunately, since I had just completed a dissertation, I had some experience with long bouts of research. So, I endeavoured to find the best mods in every category and build my own ultimate mod list.
 
-Consider this page a "living research report", in which I maintain my knowledge of mods across the various aspects of Skyrim, as well as some notes about modding Skyrim in general, like how to detect potential mod conflicts, how to find patches, how to deal with crashes, etc.
+Consider this page a living guide, in which I maintain my knowledge of Skyrim mods across various aspects of the game, as well as some notes about modding Skyrim in general, like how to detect potential mod conflicts, how to find patches, how to deal with crashes, etc. I hope this guide can be for you what I wish I had when I started.
 
 ## Table of Contents
 
@@ -15,7 +15,19 @@ Consider this page a "living research report", in which I maintain my knowledge 
 - [Detecting Mod Conflicts](#detecting-mod-conflicts)
 - [Debugging Crashes](#debugging-crashes)
 - [Selecting Mods](#selecting-mods)
-  - [Mod Categories](#mod-categories)
+  - [Bug Fixes](#bug-fixes)
+  - [User Interface](#user-interface)
+  - [Gameplay: Animation](#gameplay-animation)
+  - [Gameplay: Combat](#gameplay-combat)
+  - [Gameplay: Mechanics](#gameplay-mechanics)
+  - [Audio](#audio)
+  - [Visuals](#visuals)
+  - [Models and Textures](#models-and-textures)
+  - [Environment](#environment)
+  - [Locations](#locations)
+  - [Items](#items)
+  - [NPCs](#npcs)
+  - [Quests](#quests)
   - [What About Creation Club?](#what-about-creation-club)
 
 ## Tools
@@ -57,7 +69,7 @@ Once you go beyond a few mods, you will inevitably have conflicts, so it will be
 
    You can use LOOT to search for mod conflicts and patches. While LOOT is primarily used to sort mods, it also maintains a registry of known mod conflicts and patches, and it will flag these for you. I don't even use LOOT for sorting (more on that later). LOOT's registry contains much of the information you would have found on Nexus, so it's a good way to catch anything you missed. That being said, don't let it become a crutch -- you should still always read the mod descriptions.
 
-3. **Understand how different kinds of mods interact.** Ultimately, you'll want to gain an intuition for the different mod "categories" and which kinds of mods are likely to conflict with each other. This intuition can't be taught, but you will learn over time as you research mods. See my section below on [mod categories](#mod-categories).
+3. **Understand how different kinds of mods interact.** Ultimately, you'll want to gain an intuition for the different mod "categories" and which kinds of mods are likely to conflict with each other. This intuition can't be taught, but you will learn over time as you research mods. See my section below on [mod categories](#selecting-mods).
 
    For what it's worth, most of the patches in my mod list are between city overhauls and quest mods. I also spent a long time figuring out which combat mods I could use together, but it turns out that "combat" encompass multiple aspects of the game that are (mostly) independent from each other, so I didn't need very many combat-related patches.
 
@@ -87,19 +99,17 @@ I learned some of these lessons the hard way. While I did try to install everyth
 
 In this section, I will try to demonstrate how to pick mods by walking you through my mod setup.
 
-Researching and selecting mods is by far the most time-consuming aspect of modding for me. In case you haven't noticed, there are a lot of mods. _Way too many_ mods to try them all in one go.
+Researching and selecting mods is by far the most time-consuming aspect of modding for me. In case you haven't noticed, there are a lot of mods. *Way too many* mods to try them all at once.
 
 More importantly, game saves are fragile. Most mods can't be cleanly removed after they are added, and some mods can't even be cleanly added mid-game. Yes, you can use the [Script Cleaner](https://www.nexusmods.com/skyrimspecialedition/mods/34601) to "clean" a save after removing mods, but in reality, the idea of "cleaning" a save is a delusion, and the only way to cleanly remove a mod is to revert to a save from before before the mod was added. In some cases you might get lucky -- mods that don't add scripts can usually be removed without much issue. But must mods of any interest use scripts, so don't count on it.
 
 The point is, if you care about a save game, you should care about the mods you add to it. Ideally, you should test new mods one at a time and always save before you add a mod. Of course, it's not always so easy in practice. Some mods have wide-ranging effects on the game, you may have to play it for a while before you know whether or not you like it, and you probably won't want to test one mod at a time when you have a bunch of mods that you want to play together. I dealt with all of these problems because I had several years of new mods to evaluate all at once.
 
-### Mod Categories
-
-Navigating the great sea of mods is much easier once you have an idea of the main categories and the choices that you have within each category. Here I will walk you through the main categories that I use to organize my mods. At this point I've mostly converged with the Nexus categories, but I only get as detailed as I need for it to be helpful.
+Navigating the great sea of mods is much easier once you have an idea of the main categories and the choices that you have within each category. Here I will walk you through the categories that I use to organize my mods. At this point I've mostly converged with the Nexus categories, but I only get as detailed as I need for it to be helpful.
 
 *NOTE*: This section is not an exhaustive mod list. In particular, I didn't include all of the dependencies required to use these mods. As always, make sure you follow the installation instructions for every mod you use.
 
-#### Bug Fixes
+### Bug Fixes
 
 The most commonly used bugfix mods by far are Arthmoor's Unofficial Skyrim Special Edition Patch (USSEP) and Cutting Room Floor (CRF). USSEP fixes a bunch of bugs while CRF adds a bunch of extra content that was in the game files but removed from the world. I could probably live without these mods, but I use them anyway because some mods depend on them.
 
@@ -109,7 +119,7 @@ If you're using SKSE, there are a bunch of SKSE plugins out there that provide v
 - SSE Engine Fixes
 - Unofficial Skyrim Special Edition Patch
 
-#### User Interface
+### User Interface
 
 I'm pretty happy with the UI mods that I've settled on. All of these mods are solid, and they work together seamlessly.
 
@@ -125,7 +135,7 @@ I'll just highlight some of my favorites. Alternate Conversation Camera gives yo
 - The Elder Scrolls Legends - Loading Screens
 - TrueHUD - HUD Additions
 
-#### Gameplay: Animation
+### Gameplay: Animation
 
 It feels like the Skyrim animation modding scene exploded after the pandemic. Thanks to tools like Nemesis and DAR, modders have been able to use animations in some really cool ways. Note that some of the combat mods also involve animation, but I listed them under the Combat section.
 
@@ -137,11 +147,11 @@ At some point I'm going to try out [EVG Animated Traversal](https://www.nexusmod
 - Immersive Interactions
 - Take a Seat
 
-#### Gameplay: Combat
+### Gameplay: Combat
 
 Out of all the categories, I think the combat mods took the longest for me to figure out. It was difficult in part because "combat" encompasses things like animation, behavior, AI, and mechanics, so it was hard to figure out which mods could be used together.
 
-Here are some highlights. SkySA introduces "attack commitment", which causes you to step into every attack you make. TK Dodge allows you to... dodge. True Directional Movement introduces several features, including 360 degree movement and enemy tracking. Ultimate Combat makes enemies more aggresive and strategic in combat. ZUPA introduces a potion drinking animation, so that you can't spam healing potions during combat.
+Here are some highlights. SkySA introduces "attack commitment", which causes you to step into every attack you make. TK Dodge allows you to... dodge. True Directional Movement introduces several features, including 360 degree movement and enemy tracking. Ultimate Combat makes enemies more aggressive and strategic in combat. ZUPA introduces a potion drinking animation, so that you can't spam healing potions during combat.
 
 All in all, these mods make the combat in Skyrim feel more like The Witcher 3 or Dark Souls. These games have a much better third-person combat experience (IMO) because they give you more tools (e.g. dodging and parrying) and require you to play smarter in order to win. In fact, if you only play Skyrim in first-person, then most of these mods will not affect you. On the other hand, maybe you're playing in first-person because third-person is actually bad, and these mods just might make you switch.
 
@@ -164,11 +174,11 @@ Because of the flurry of new combat mods each year, there are a few mods I haven
 - [SCAR](https://www.nexusmods.com/skyrimspecialedition/mods/72014)
 - [Valhalla Combat](https://www.nexusmods.com/skyrimspecialedition/mods/64741) (would replace Hellblade, Shield of Stamina)
 
-#### Gameplay: Mechanics
+### Gameplay: Mechanics
 
 This category is kind of a catch-all for other gameplay mods. Like combat, "gameplay" encompasses lots of different things.
 
-Andromeda, Odin, and Vokrii are part of the "EnaiRim" collection of gameplay mods by the modder Enai. I haven't gone very far down the EnaiRim rabbit hole, but these mods stood out to me and so far I've enjoyed them. Maybe one day I'll try some of his more heavyweight mods like Apocalypse and Ordinator.
+Andromeda, Odin, and Vokrii are part of the "Enairim" collection of gameplay mods by the modder Enai. I haven't gone very far down the Enairim rabbit hole, but these mods stood out to me and so far I've enjoyed them. Maybe one day I'll try some of his more heavyweight mods like Apocalypse and Ordinator.
 
 ALl of the other mods are also worth highlighting. Simply Knock allows you to enter a locked building by asking the owner to let you in. Sojourn Over Signposts makes fast travel allowed only by interacting with a signpost, forcing you to move through the world instead of the map menu. Take a Peek allows you to peek through the keyhole of a door and see what's on the other side. Wet and Cold makes NPCs wear cloaks and hoods when it rains or snows, and also makes them run inside during storms. All of these mods are among my favorites for their simplicity and the clear value they add to the game.
 
@@ -180,7 +190,7 @@ ALl of the other mods are also worth highlighting. Simply Knock allows you to en
 - Vokrii - Minimalistic Perks of Skyrim
 - Wet and Cold
 
-#### Audio
+### Audio
 
 Audio mods typically either improve or replace existing sounds, or add new sounds, where "sounds" could be sound effects, dialogue, or music. Despite my background as a musician, I am not the stereotypical "audiophile" -- I don't keep all my music in a lossless format or listen to everything with ultra-high quality headphones. So I probably don't fully appreciate the quality improvement mods like Ludicity, HQ Music, and HQ Voices. However, I do appreciate the new sound effects added by Sounds of Skyrim (one of the first mods I ever used), and I can certainly appreciate the new bard music provided by Badass Bard Songs.
 
@@ -194,7 +204,7 @@ Other notable mods include Immersive Sounds and the Unofficial HD Audio Project.
 - SSE High Quality Music
 - SSE High Quality Voices
 
-#### Visuals
+### Visuals
 
 Visual mods are another category that took me a while to research, and one that I will continue to experiment with as I understand it better. Like combat, there are multiple aspects to lighting, so you really have a lighting "stack". There are multiple options for each layer in the stack, and some mods are designed to "play well" with specific mods from other layers. Also, each layer is optional, so you can decide how far you want to go with the graphics overhauls.
 
@@ -245,13 +255,13 @@ Finally, there are a few more lighting mods that are good to have in general:
 - Enhanced Volumetric Lighting and Shadows (EVLaS)
 - Window Shadows
 
-#### Models and Textures
+### Models and Textures
 
 Models (aka meshes) and textures are the 3D and 2D assets that comprise everything you see in the game world, from the landscape and the sky to buildings and items and people. Basically every Elder Scrolls game ships with mediocre assets, probably so that they can push the limits on other fronts like world size and AI complexity. Inevitably, modders bring higher resolutions and polygon counts to each game, but some modders also take the opportunity to create their own look and feel, especially with textures. You can make Skyrim look like a [very different game](https://www.nexusmods.com/skyrim/mods/33017) with only a texture pack.
 
 Model and texture mods can be divided into "base" mods that cover everything and "additional" mods that cover only a subset of objects. The small mods tend to be more focused and detailed, and more subject to individual preferences. A good practice is to apply your "base" mods first, then apply any smaller mods to suit your taste.
 
-For models, start with Static Mesh Improvment Mod (SMIM) and High Poly Project (HPP). These mods simply improve all 3D models throughout the game. For textures, there are a plethora of "all-in-one" texture packs to choose from:
+For models, start with Static Mesh Improvement Mod (SMIM) and High Poly Project (HPP). These mods simply improve all 3D models throughout the game. For textures, there are a plethora of "all-in-one" texture packs to choose from:
 
 - CleverCharff’s AIO
 - Noble Skyrim
@@ -268,7 +278,7 @@ I use Pfuscher's Skyrim followed by Noble Skyrim. For "additional" mods, I will 
 
 All of these mods are highly regarded, and you'll probably find them on most mod lists. Beyond that, there is an endless stream of mods for weapons, armor, flora, clutter, furniture, creatures, and so on, and you really have to figure out for yourself which ones you like. A good strategy is to find modders that you like and keep up with their mod releases, which should make it easier to create a consistent look and feel for your game. Some well-known modders include [DrJacopo](https://www.nexusmods.com/skyrimspecialedition/users/50222836), [ElSopa](https://www.nexusmods.com/skyrimspecialedition/users/6960827), [mathy79](https://www.nexusmods.com/skyrimspecialedition/users/12770808), and [rudy102](https://www.nexusmods.com/skyrimspecialedition/users/93362). I'm content at the moment with the base texture overhauls, so I don't use anything else, but if I ever go further down the rabbit hole, I'll probably start with these modders.
 
-#### Environment
+### Environment
 
 Environmental mods mainly add content to the natural world (e.g. trees, grass, water), but may also include new models and textures. Here are the mods I currently use:
 
@@ -282,7 +292,7 @@ Environmental mods mainly add content to the natural world (e.g. trees, grass, w
 
 Another popular water mod is Water for ENB. I honestly couldn't tell you which one I like more, they both look really good to me, but you should use one or the other.
 
-#### Locations
+### Locations
 
 Location, location, location. Yet another category that took me forever to decide on. There are so many cool city overhauls, and I wish I could have them all at once, but alas, I must choose.
 
@@ -331,7 +341,18 @@ Finally, there are overhauls for various other locations. I haven't checked all 
 
 In my next iteration, I will try to include JK's Skyrim and all of JK's interior mods. I might still be able to keep the individual city overhauls depending on compatibility with quest mods. I will probably have to drop Enhanced Solitude and/or the Docks, which might be for the best anyway since those mods are a bit much for my machine.
 
-#### NPCs
+I didn't include new lands mods here because I decided to group them with quest mods. Also, there are tons of mods that add new dungeouns and player homes, I'm just not as interested in such mods unless there's a good quest involved.
+
+### Items
+
+Item mods add new weapons, armors, clothing, or other items to the game. I don't use any at the moment, as I'm generally content with the items in my current setup, but I'll list a few that I'm considering:
+
+- Armors of the Velothi Pt. I
+- Armors of the Velothi Pt. II
+- Immersive Armors
+- Immersive Weapons
+
+### NPCs
 
 NPC mods include body / face / hair replacers, companions, and population mods.
 
@@ -350,7 +371,7 @@ I use Diversity and RS Children (as well as Realistic RS Children), which provid
 
 Another thing I haven't tried yet is [HDT-SMP](https://www.nexusmods.com/skyrimspecialedition/mods/57339), an SKSE plugin that adds support for body, hair, and clothing physics. I know you can use [Artesian Cloaks of Skyrim](https://www.nexusmods.com/skyrimspecialedition/mods/17416) to add physics to the cloaks from Wet and Cold, but I haven't found anything for the hair from Diversity.
 
-Some of my favorite mods are companion mods. If you decide not to mess with any mods, then at the very least, pick a good companion mod (or three) and start a new game. Some of these companions will really enrich your time in the game world, and they'll surprise you with some of the things they say. As much as I love playing with graphics and combat mods in Skyrim, the things that always keep me interested are good stories and *good characters*.
+Companion mods are some of my favorite mods, right alongside quest mods. If you were to take only one thing from this guide, I would say, add a good companion mod (or three) to your next playthrough. Some of these companions will really enrich your time in the game world, and sometimes they'll surprise you with the things they say. As much as I love playing with graphics and combat mods in Skyrim, the things that really keep me in the game are good stories and *good characters*.
 
 Here are the companions I've played with and enjoyed:
 
@@ -391,7 +412,7 @@ CoT and 3DNPC collectively add hundreds of unique NPCs to the game, with tons of
 
 I initially used the entire Populated series of mods because I wanted to have *tons* of generic NPCs like the Witcher 3. These mods add generic NPCs to cities and towns and roads, hostile NPCs and creatures to dungeons, and huge civil war battles across the map. After playing for a while, some of these mods started to cause weird crashes (possibly an incompatibility with other mods) and had to be removed. Also, I realized that the unique NPCs from CoT and 3DNPC, although fewer in number, added so much more to my gameplay experience than the generic NPCs, and in fact were plentiful enough to make the world feel more "populated". In the end, I only kept the dungeon-related mods, since they provide a necessary difficulty bump to compensate for all of my new companions.
 
-#### Quests
+### Quests
 
 Under "quest" mods I lump together mods that add quests to Skyrim, mods that add new locations, and total conversion mods.
 
@@ -459,7 +480,7 @@ I'll end with a few mods that provide some general quality improvements rather t
 - Immersive World Encounters
 - New Beginnings - Live Another Life Extension
 
-#### What About Creation Club?
+### What About Creation Club?
 
 The Anniversary Edition of Skyrim comes with all of the Creation Club content, which was partly what motivated me to give Skyrim another go. The CC content is considered canon, and I like to keep up with Elder Scrolls lore, so I decided to buy the AE upgrade and try out the CC addons for myself. So, since we're already going through my mod setup, I'll give you my two cents on Creation Club.
 
@@ -509,4 +530,4 @@ Here are the CC mods already covered by Legacy of the Dragonborn:
 
 Like I said before, all of the CC mods are good, and any one of them could make a fine addition to the right playthrough. Depending on your mod setup or character build, you might choose differently from me. Lots of people like to dunk on these mods because they didn't like the Creation Club as a concept, which I understand, but I don't feel strongly about it either way. I'm just very minimalist with mods, especially small mods, so most CC content just doesn't make the cut.
 
-(And yes, for the amount of coverage I'm getting, the ~150 mods I'm using are pretty minimal.)
+(And yes, for the amount of coverage I'm getting, the ~150 mods that I use are pretty minimal!)
