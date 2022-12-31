@@ -335,7 +335,7 @@ In my next iteration, I will try to include JK's Skyrim and all of JK's interior
 
 NPC mods include body / face / hair replacers, companions, and population mods.
 
-I don't care that much about body mods because everyone is almost always clothed anyway. At least, they are in *my* playthroughs. If you want a body mod, CBBE is a good place to start, at least for female bodies. As for face and hair replacers, here are a few good options:
+I don't care that much about body mods because everyone is almost always clothed... at least in *my* playthroughs. If you want a body mod, CBBE is a good place to start, at least for female bodies. As for face and hair replacers, here are a few good options:
 
 - Bijin Warmaidens
 - Cathedral Player and NPC Overhaul
@@ -347,6 +347,8 @@ I don't care that much about body mods because everyone is almost always clothed
 - TK Children
 
 I use Diversity and RS Children (as well as Realistic RS Children), which provides a good vanilla-friendly uplift to basically every NPC in the game. Cathedral also looks really good to me. A lot of face and hair mods make everything too smooth for my taste, or they only update a few characters, leaving everyone else to wallow in their relative ugliness. But to each their own.
+
+Another thing I haven't tried yet is [HDT-SMP](https://www.nexusmods.com/skyrimspecialedition/mods/57339), an SKSE plugin that adds support for body, hair, and clothing physics. I know you can use [Artesian Cloaks of Skyrim](https://www.nexusmods.com/skyrimspecialedition/mods/17416) to add physics to the cloaks from Wet and Cold, but I haven't found anything for the hair from Diversity.
 
 Some of my favorite mods are companion mods. If you decide not to mess with any mods, then at the very least, pick a good companion mod (or three) and start a new game. Some of these companions will really enrich your time in the game world, and they'll surprise you with some of the things they say. As much as I love playing with graphics and combat mods in Skyrim, the things that always keep me interested are good stories and *good characters*.
 
@@ -389,13 +391,73 @@ CoT and 3DNPC collectively add hundreds of unique NPCs to the game, with tons of
 
 I initially used the entire Populated series of mods because I wanted to have *tons* of generic NPCs like the Witcher 3. These mods add generic NPCs to cities and towns and roads, hostile NPCs and creatures to dungeons, and huge civil war battles across the map. After playing for a while, some of these mods started to cause weird crashes (possibly an incompatibility with other mods) and had to be removed. Also, I realized that the unique NPCs from CoT and 3DNPC, although fewer in number, added so much more to my gameplay experience than the generic NPCs, and in fact were plentiful enough to make the world feel more "populated". In the end, I only kept the dungeon-related mods, since they provide a necessary difficulty bump to compensate for all of my new companions.
 
-#### Quests: Existing Locations
+#### Quests
 
-TODO
+Under "quest" mods I lump together mods that add quests to Skyrim, mods that add new locations, and total conversion mods.
 
-#### Quests: New Locations
+I think quest mods get the most hype because they promise "X hours of new gameplay", and people are willing to wait for ambitious mods because they understand how much work goes into making them. After playing through many such mods across multiple Elder Scrolls games, I've learned that not every quest mod is *really* worth playing. A mod can add entirely new lands filled with NPCs and quests, but if the stories and dialogue aren't very memorable, or even if it just feels like more of the same Skyrim content, I end up feeling like it wasn't worthwhile.
 
-TODO
+I feel harsh saying these things, because I know how much time and effort goes into quest mods, and for little to no compensation. But the reality is that there are *so many* mods out there, more than I will ever have time to play, so I want to find the very best of them. Not just the *most popular* mods, but the *best* mods. I want to experience something that I wouldn't find in the original game. This is why I can enjoy smaller but unique mods, like The Bottomless Pit and The Forgotten City, way more than larger but relatively mundane mods like Falskaar and Wyrmstooth.
+
+Here are the mods that I really enjoyed:
+
+- Clockwork
+- Enderal
+- Faction - Pit Fighter
+- Helgen Reborn
+- Project AHO
+- The Bottomless Pit
+- The Forgotten City
+
+Here are the mods that I thought were just okay:
+
+- Falskaar
+- Here There Be Monsters
+- Moon and Star
+- Moonpath to Elsweyr
+- Wyrmstooth
+
+The mods I'm currently playing through:
+
+- Carved Brink
+- Leaps of Faith - A Misc Quest
+- Legacy of the Dragonborn
+- Quest Expansions by jayserpa
+- The Gray Cowl of Nocturnal
+- There Is No Umbra - Chapter II
+
+The mods I'm looking forward to playing (mods marked WIP haven't been released at the time of writing):
+
+- Apotheosis (WIP)
+- Beyond Reach
+- Beyond Skyrim - Bruma
+- GLENMORIL
+- Konahrik's Accoutrements
+- Odyssey of the Dragonborn (WIP)
+- Rigmor of Bruma
+- Rigmor of Cyrodiil
+- Shezarrine - The Fate of Tamriel - Prologue
+- Sirenroot (WIP)
+- Skyblivion (WIP)
+- Skyrim: Extended Cut (WIP)
+- Skywind (WIP)
+- Trainwiz' Aethernautics - A Space Travel Mod
+- Trainwiz' Blackreach Railroad
+- Trainwiz' Brhuce Hammar Legacy
+- Trainwiz' The Lost Wonders of Mzark
+- Trainwiz' The Wheels of Lull
+- Undeath Remastered
+- UNSLAAD
+- VIGILANT
+
+Looks like I have enough adventures in my backlog to keep me playing for a while!
+
+I'll end with a few mods that provide some general quality improvements rather than big quests. Alternate Start (and the New Beginnings extension) allows you to start the game any number of ways instead of Helgen (you can still start the main quest by traveling to Helgen and inspecting the aftermath). At Your Own Pace tweaks the main quest and faction quests to feel less urgent and not make you the center of attention so much. Immersive World Encounters adds a bunch of random encounters to the game, and also serves as a lightweight population mod.
+
+- Alternate Start - Live Another Life
+- At Your Own Pace
+- Immersive World Encounters
+- New Beginnings - Live Another Life Extension
 
 ### What About Creation Club?
 
