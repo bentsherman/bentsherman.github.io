@@ -450,7 +450,7 @@ The mods I'm looking forward to playing (mods marked WIP haven't been released a
 - UNSLAAD
 - VIGILANT
 
-Looks like I have enough adventures in my backlog to keep me playing for a while!
+Looks like I have enough adventures in my backlog to keep me busy for a while!
 
 I'll end with a few mods that provide some general quality improvements rather than big quests. Alternate Start (and the New Beginnings extension) allows you to start the game any number of ways instead of Helgen (you can still start the main quest by traveling to Helgen and inspecting the aftermath). At Your Own Pace tweaks the main quest and faction quests to feel less urgent and not make you the center of attention so much. Immersive World Encounters adds a bunch of random encounters to the game, and also serves as a lightweight population mod.
 
@@ -459,17 +459,11 @@ I'll end with a few mods that provide some general quality improvements rather t
 - Immersive World Encounters
 - New Beginnings - Live Another Life Extension
 
-### What About Creation Club?
+#### What About Creation Club?
 
-The Anniversary Edition of Skyrim (released on the 10-th year anniversary, 11/11/2021) comes with all of the Creation Club content, which was partly what motivated me to give Skyrim another go. The CC content is considered canon, and I like to keep up with TES lore, so I decided to buy the AE upgrade and try out the CC addons for myself. So, since we're already going through my mod setup, I'll give you my two cents on Creation Club.
+The Anniversary Edition of Skyrim comes with all of the Creation Club content, which was partly what motivated me to give Skyrim another go. The CC content is considered canon, and I like to keep up with Elder Scrolls lore, so I decided to buy the AE upgrade and try out the CC addons for myself. So, since we're already going through my mod setup, I'll give you my two cents on Creation Club.
 
-Ultimately, I think most of the CC content is just fine. They are all high-quality mods by skilled modders, but I found that most of them didn't add much value for me, especially among all the other mods I already had. If I ever play through Skyrim again (e.g. to play a big overhaul mod like Skyrim: Extended Cut), I will probably only keep a few of the Creation Club mods.
-
-I'll sum it up by listing which mods I would keep/drop. Your mileage may vary -- depending on your mod setup or save game, you might choose differently from me.
-
-#### Keep
-
-The Alternative Armors collection was probably my favorite CC content, because of the story that connects all of the armor sets, the rise and fall of the Crimson Dirks. It was great fun to find each armor set and learn about the Crimson Dirk who wore it. And while I dropped most of the other weapon and armor mods, I kept Shadowrend in particular because of the... unique combat situation that it puts you through.
+Ultimately, I think most of the CC content is just fine. They are all high-quality mods by skilled modders, but most of them just didn't add much value for me, especially among all the other mods I already have. In future playthoughs, I will probably only keep a few of the Creation Club mods:
 
 - Adventurer's Backpack
 - Alternative Armors (all 15 of them)
@@ -481,50 +475,7 @@ The Alternative Armors collection was probably my favorite CC content, because o
 - Shadowrend
 - Survival Mode
 
-#### Drop
-
-Like I said before, all of these mods are good mods, and any of them would make a fine addition to the right playthrough. Many of the CC mods add artifacts from previous games, artifacts that have already been added by other mods such as [Legacy of the Dragonborn](https://www.nexusmods.com/skyrimspecialedition/mods/11802) (LotD). I have marked these mods as such. In general, I prefer LotD and other mods over the CC versions for how they introduce these artifacts into the game.
-
-- Arms of Chaos
-- Bloodchill Manor
-- Bone Wolf
-- Bow of Shadows (use LotD instead)
-- Chrysamere (use LotD instead)
-- Civil War Champions
-- Dawnfang & Duskfang (use LotD instead)
-- Dead Man's Dread (use LotD instead)
-- Divine Crusader (use LotD instead)
-- Elite Crossbows
-- Farming
-- Fearsome Fists
-- Gallows Hall
-- Goblins
-- Goldbrand (use LotD instead)
-- Headman's Cleaver
-- Hendraheim
-- Horse Armor (lol)
-- Lord's Mail (use LotD instead)
-- Myrwatch
-- Nordic Jewelry
-- Pets of Skyrim
-- Plague of the Dead
-- Redguard Elite Armaments
-- Saints & Seducers (use the [Extended Cut](https://www.nexusmods.com/skyrimspecialedition/mods/72772) instead)
-- Shadowfoot Sanctum
-- Spell Knight Armor
-- Staff of Hasedoki (use LotD instead)
-- Staves
-- Stendarr's Hammer (use LotD instead)
-- Sunder & Wraithguard (use LotD instead)
-- The Cause
-- The Contest (use LotD instead)
-- The Gray Cowl Returns! (use [The Gray Cowl of Nocturnal](https://www.nexusmods.com/skyrimspecialedition/mods/4509) instead)
-- Tundra Homestead
-- Umbra (use [There Is No Umbra](https://www.nexusmods.com/skyrimspecialedition/mods/47302) instead)
-- Vigil Enforcer Armor Set
-- Wild Horses
-
-#### TBD
+TBD:
 
 - Arcane Accessories
 - Dwarven Armored Mudcrab
@@ -537,3 +488,25 @@ Like I said before, all of these mods are good mods, and any of them would make 
 - Rare Curios
 - Ruin's Edge
 - Staff of Sheogorath
+
+The Alternative Armors collection was probably my favorite CC content, because all of the armor sets are connected by a commen story, the rise and fall of the Crimson Dirks. It was great fun to find each armor set and learn about the Crimson Dirk who wore it. And while I dropped most of the other weapon and armor mods, I kept Shadowrend in particular because of the... unique combat situation that it provides.
+
+Many of the other CC mods were dropped because they add artifacts that are already covered by other mods such as Legacy of the Dragonborn, The Gray Cowl of Nocturnal, and There is No Umbra. Additionally, the team behind Skyrim: Extended Cut released an [extended cut of Saints and Seducers](https://www.nexusmods.com/skyrimspecialedition/mods/72772). So far, I have enjoyed these mods more than their CC counterparts.
+
+Here are the CC mods already covered by Legacy of the Dragonborn:
+
+- Bow of Shadows
+- Chrysamere
+- Dawnfang & Duskfang
+- Dead Man's Dread
+- Divine Crusader
+- Goldbrand
+- Lord's Mail
+- Staff of Hasedoki
+- Stendarr's Hammer
+- Sunder & Wraithguard
+- The Contest
+
+Like I said before, all of the CC mods are good, and any one of them could make a fine addition to the right playthrough. Depending on your mod setup or character build, you might choose differently from me. Lots of people like to dunk on these mods because they didn't like the Creation Club as a concept, which I understand, but I don't feel strongly about it either way. I'm just very minimalist with mods, especially small mods, so most CC content just doesn't make the cut.
+
+(And yes, for the amount of coverage I'm getting, the ~150 mods I'm using are pretty minimal.)
