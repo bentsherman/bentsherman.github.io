@@ -12,8 +12,6 @@ Consider this page a living guide, in which I maintain my knowledge of Skyrim mo
 
 - [Tools](#tools)
 - [Discovering Mods](#discovering-mods)
-- [Detecting Mod Conflicts](#detecting-mod-conflicts)
-- [Debugging Crashes](#debugging-crashes)
 - [Selecting Mods](#selecting-mods)
   - [Bug Fixes](#bug-fixes)
   - [User Interface](#user-interface)
@@ -29,6 +27,8 @@ Consider this page a living guide, in which I maintain my knowledge of Skyrim mo
   - [NPCs](#npcs)
   - [Quests](#quests)
   - [What About Creation Club?](#what-about-creation-club)
+- [Detecting Mod Conflicts](#detecting-mod-conflicts)
+- [Debugging Crashes](#debugging-crashes)
 
 ## Tools
 
@@ -53,53 +53,11 @@ I've been able to find most of my mods on [Nexus](https://www.nexusmods.com/skyr
 - You can list all the mods by a particular author (i.e. if you like one of their mods then see what else they've made)
 - You can glean tons of information from the mod page itself, such as the required mods (including off-site requirements) and requiring mods (which is one way to find patches or enhancements)
 
-## Detecting Mod Conflicts
-
-Mod conflicts happen when two mods edit the same content. For example, if one mod edits the name of a potion while another mod edits the effects of that potion, the two mods will conflict. In this case, whichever mod is loaded later will overwrite the other mod. A more common example is when two mods edit the same world space, such as a mod that overhauls city and a mod that makes a few changes to that city for a new quest. An even crazier conflict might be two mods that edit the animation system or combat AI, although I think it would still result in one mod overwriting the other.
-
-Once you go beyond a few mods, you will inevitably have conflicts, so it will be important for you to know how to detect them and resolve them. Now, I come from the world of software engineering, where we already have good tools and processes for resolving conflicts that occur when multiple engineers work on the same codebase. With mods, resolving conflicts is more of an art. I will walk you through some of the strategies that you can use.
-
-1. **Read the mod description for compatibility notes.** This one is the RTFM for modding. If you download a mod from Nexus, for example, always read the **Description** page in its entirety. The mod author will usually include a section on mod compatibility, especially if their mod is popular, and they will say whether a mod is compatible, and if not, if there is a patch.
-
-   Note, however, that the mod author can't test their mod with every other mod in existence. They will usually test the most commonly-used mods that are likely to conflict with theirs, and they might give some rules-of-thumb like "any mod that doesn't edit X location should be compatible". So if they don't mention a particular mod, you'll have to use your best judgement.
-
-2. **Check for compatibility patches.** Beyond the mod description, there are a few easy ways to check for patches.
-
-   In Nexus, there is a **Requirements** dropdown with a section called **Mods requiring this file**. You can quickly scan this section to see if there are any patches for other mods that you use. You can also check the **Files** section for patches from the mod author, although they usually mention these patches in the mod description.
-
-   You can use LOOT to search for mod conflicts and patches. While LOOT is primarily used to sort mods, it also maintains a registry of known mod conflicts and patches, and it will flag these for you. I don't even use LOOT for sorting (more on that later). LOOT's registry contains much of the information you would have found on Nexus, so it's a good way to catch anything you missed. That being said, don't let it become a crutch -- you should still always read the mod descriptions.
-
-3. **Understand how different kinds of mods interact.** Ultimately, you'll want to gain an intuition for the different mod "categories" and which kinds of mods are likely to conflict with each other. This intuition can't be taught, but you will learn over time as you research mods. See my section below on [mod categories](#selecting-mods).
-
-   For what it's worth, most of the patches in my mod list are between city overhauls and quest mods. I also spent a long time figuring out which combat mods I could use together, but it turns out that "combat" encompass multiple aspects of the game that are (mostly) independent from each other, so I didn't need very many combat-related patches.
-
-## Debugging Crashes
-
-Skyrim can crash for a lot of different reasons, so the solution will depend on the nature of the crash. The [/r/SkyrimMods](https://www.reddit.com/r/skyrimmods/wiki/troubleshooting_guide/) troubleshooting guide is the most comprehensive guide that I have found. In fact, I learned much of what I know through the guides on that subreddit, and I only hope to provide a gentler overview on this page.
-
-First things first, you should take steps to prevent crashes in the first place:
-
-- WHen you install a mod, make sure to install all of its dependencies. On Nexus, you can find a mod's dependencies under the **Requirements** dropdown, and Nexus will usually alert you about them anyway when you go to download a mod.
-
-- Make sure your mod plugins are ordered sensibly: ESMs should be first, plugins should not be missing any required plugins, and plugins should come after their required plugins. In MO2, you can check all of these things under the **Plugins** tab. Plugins will show an alert icon if they are missing any dependencies.
-
-- In general, just follow the mod author's instructions for every mod you download, no matter how tedious it feels. Do it *when you install the mod* -- if you push it off, you are much more likely to forget something. I cannot stress this point enough. It is much harder to debug a crash caused by a misconfigured mod, than it is to install the mod correctly the first time.
-
-Hopefully these measures will save you from 90% of crashes. But, if you are using hundreds of mods, your game will still probably crash from time to time. Even with the best mod hygiene, you still need to know how to debug. So, here are some options:
-
-- You can use the [.NET Script Framework](https://www.nexusmods.com/skyrimspecialedition/mods/21294) to generate an error log whenever your game crashes. It's like a plugin, but for the *game engine* rather than the game world. When your game crashes, you'll find a new error log with a bunch of diagnostic information. The error log can help you find the root cause by identifying plugins that may have contributed to the crash.
-
-- In some cases, you might be able to use context clues to figure out the root cause. Does the game always crash in a particular area? Or at a particular stage in a quest? Or when a particular event happens? If you suspect a particular mod, disable the mod and try to reproduce the crash.
-
-- If all else fails, your final option is to disable and re-enable mods one at a time until you reproduce the crash. It is the "brute force" approach, and it's last because it's the most time-consuming. To save some time, disable half of your mods at a time until the crash doesn't happen. Then, re-enable each mod from the last "half", one at a time, until the crash happens again. This approach should allow you to figure out just about any remaining crash.
-
-I learned some of these lessons the hard way. While I did try to install everything correctly, I forgot to scrutinize my plugin order because I thought Mod Organizer was syncing it with my mod order, when in fact these two things are independent. Somehow, my game still worked for a while, and I suspect that the game engine is able to handle some basic ordering issues on-the-fly. But, as I explored more of the world, I began to experience more crashes and other weirdness. I fixed most of these issues by correcting my load order and adding a few patches I had been missing (they were flagged by LOOT). The .NET Script Framework helped me identify a few mods that were consistently causing crashes, and I usually ended up removing these mods.
-
 ## Selecting Mods
 
 In this section, I will try to demonstrate how to pick mods by walking you through my mod setup.
 
-Researching and selecting mods is by far the most time-consuming aspect of modding for me. In case you haven't noticed, there are a lot of mods. *Way too many* mods to try them all at once.
+Researching and selecting mods is by far the most time-consuming aspect of modding for me. In case you haven't noticed, there are a *lot* of mods. Way too many mods to try them all at once.
 
 More importantly, game saves are fragile. Most mods can't be cleanly removed after they are added, and some mods can't even be cleanly added mid-game. Yes, you can use the [Script Cleaner](https://www.nexusmods.com/skyrimspecialedition/mods/34601) to "clean" a save after removing mods, but in reality, the idea of "cleaning" a save is a delusion, and the only way to cleanly remove a mod is to revert to a save from before before the mod was added. In some cases you might get lucky -- mods that don't add scripts can usually be removed without much issue. But must mods of any interest use scripts, so don't count on it.
 
@@ -531,3 +489,45 @@ Here are the CC mods already covered by Legacy of the Dragonborn:
 Like I said before, all of the CC mods are good, and any one of them could make a fine addition to the right playthrough. Depending on your mod setup or character build, you might choose differently from me. Lots of people like to dunk on these mods because they didn't like the Creation Club as a concept, which I understand, but I don't feel strongly about it either way. I'm just very minimalist with mods, especially small mods, so most CC content just doesn't make the cut.
 
 (And yes, for the amount of coverage I'm getting, the ~150 mods that I use are pretty minimal!)
+
+## Detecting Mod Conflicts
+
+Mod conflicts happen when two mods edit the same content. For example, if one mod edits the name of a potion while another mod edits the effects of that potion, the two mods will conflict. In this case, whichever mod is loaded later will overwrite the other mod. A more common example is when two mods edit the same world space, such as a mod that overhauls city and a mod that makes a few changes to that city for a new quest. An even crazier conflict might be two mods that edit the animation system or combat AI, although I think it would still result in one mod overwriting the other.
+
+Once you go beyond a few mods, you will inevitably have conflicts, so it will be important for you to know how to detect them and resolve them. Now, I come from the world of software engineering, where we already have good tools and processes for resolving conflicts that occur when multiple engineers work on the same codebase. With mods, resolving conflicts is more of an art. I will walk you through some of the strategies that you can use.
+
+1. **Read the mod description for compatibility notes.** This one is the RTFM for modding. If you download a mod from Nexus, for example, always read the **Description** page in its entirety. The mod author will usually include a section on mod compatibility, especially if their mod is popular, and they will say whether a mod is compatible, and if not, if there is a patch.
+
+   Note, however, that the mod author can't test their mod with every other mod in existence. They will usually test the most commonly-used mods that are likely to conflict with theirs, and they might give some rules-of-thumb like "any mod that doesn't edit X location should be compatible". So if they don't mention a particular mod, you'll have to use your best judgement.
+
+2. **Check for compatibility patches.** Beyond the mod description, there are a few easy ways to check for patches.
+
+   In Nexus, there is a **Requirements** dropdown with a section called **Mods requiring this file**. You can quickly scan this section to see if there are any patches for other mods that you use. You can also check the **Files** section for patches from the mod author, although they usually mention these patches in the mod description.
+
+   You can use LOOT to search for mod conflicts and patches. While LOOT is primarily used to sort mods, it also maintains a registry of known mod conflicts and patches, and it will flag these for you. I don't even use LOOT for sorting (more on that later). LOOT's registry contains much of the information you would have found on Nexus, so it's a good way to catch anything you missed. That being said, don't let it become a crutch -- you should still always read the mod descriptions.
+
+3. **Understand how different kinds of mods interact.** Ultimately, you'll want to gain an intuition for the different mod "categories" and which kinds of mods are likely to conflict with each other. This intuition can't be taught, but you will learn over time as you research mods. See my earlier section on [mod categories](#selecting-mods).
+
+   For what it's worth, most of the patches in my mod list are between city overhauls and quest mods. I also spent a long time figuring out which combat mods I could use together, but it turns out that "combat" encompass multiple aspects of the game that are (mostly) independent from each other, so I didn't need very many combat-related patches.
+
+## Debugging Crashes
+
+Skyrim can crash for a lot of different reasons, so the solution will depend on the nature of the crash. The [/r/SkyrimMods](https://www.reddit.com/r/skyrimmods/wiki/troubleshooting_guide/) troubleshooting guide is the most comprehensive guide that I have found. In fact, I learned much of what I know through the guides on that subreddit, and I only hope to provide a gentler overview on this page.
+
+First things first, you should take steps to prevent crashes in the first place:
+
+- WHen you install a mod, make sure to install all of its dependencies. On Nexus, you can find a mod's dependencies under the **Requirements** dropdown, and Nexus will usually alert you about them anyway when you go to download a mod.
+
+- Make sure your mod plugins are ordered sensibly: ESMs should be first, plugins should not be missing any required plugins, and plugins should come after their required plugins. In MO2, you can check all of these things under the **Plugins** tab. Plugins will show an alert icon if they are missing any dependencies.
+
+- In general, just follow the mod author's instructions for every mod you download, no matter how tedious it feels. Do it *when you install the mod* -- if you push it off, you are much more likely to forget something. I cannot stress this point enough. It is much harder to debug a crash caused by a misconfigured mod, than it is to install the mod correctly the first time.
+
+Hopefully these measures will save you from 90% of crashes. But, if you are using hundreds of mods, your game will still probably crash from time to time. Even with the best mod hygiene, you still need to know how to debug. So, here are some options:
+
+- You can use the [.NET Script Framework](https://www.nexusmods.com/skyrimspecialedition/mods/21294) to generate an error log whenever your game crashes. It's like a plugin, but for the *game engine* rather than the game world. When your game crashes, you'll find a new error log with a bunch of diagnostic information. The error log can help you find the root cause by identifying plugins that may have contributed to the crash.
+
+- In some cases, you might be able to use context clues to figure out the root cause. Does the game always crash in a particular area? Or at a particular stage in a quest? Or when a particular event happens? If you suspect a particular mod, disable the mod and try to reproduce the crash.
+
+- If all else fails, your final option is to disable and re-enable mods one at a time until you reproduce the crash. It is the "brute force" approach, and it's last because it's the most time-consuming. To save some time, disable half of your mods at a time until the crash doesn't happen. Then, re-enable each mod from the last "half", one at a time, until the crash happens again. This approach should allow you to figure out just about any remaining crash.
+
+I learned some of these lessons the hard way. While I did try to install everything correctly, I forgot to scrutinize my plugin order because I thought Mod Organizer was syncing it with my mod order, when in fact these two things are independent. Somehow, my game still worked for a while, and I suspect that the game engine is able to handle some basic ordering issues on-the-fly. But, as I explored more of the world, I began to experience more crashes and other weirdness. I fixed most of these issues by correcting my load order and adding a few patches I had been missing (they were flagged by LOOT). The .NET Script Framework helped me identify a few mods that were consistently causing crashes, and I usually ended up removing these mods.
