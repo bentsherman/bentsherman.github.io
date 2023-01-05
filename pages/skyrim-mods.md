@@ -25,8 +25,10 @@ Consider this page a living guide, in which I maintain my knowledge of Skyrim mo
   - [NPCs](#npcs)
   - [Quests](#quests)
   - [What About Creation Club?](#what-about-creation-club)
+  - [What About Anniversary Edition?](#what-about-anniversary-edition)
 - [Detecting Mod Conflicts](#detecting-mod-conflicts)
 - [Debugging Crashes](#debugging-crashes)
+- [Additional Resources](#additional-resources)
 
 ## Tools
 
@@ -501,6 +503,18 @@ Like I said before, all of the CC mods are good, and any one of them could make 
 
 (And yes, for the amount of coverage I'm getting, the ~150 mods that I use are pretty minimal!)
 
+### What About Anniversary Edition?
+
+Since we're talking about Skyrim AE, I suppose I should say a few words about whether AE is worth it.
+
+Well, the AE upgrade consists of (1) all of the Creation Club mods and (2) an update to the game engine. The engine update is not significant, and it isn't required to use the CC mods. So, it basically depends on how many CC mods you want. I wanted to try them all, so I was going to buy the AE upgrade either way. Knowing what I know now, the calculation isn't so clear.
+
+Another issue with AE is that the updated game engine broke compatibility with many SKSE plugins. You can read the full story elsewhere, but the bottom line is that many mods now have separate versions for SE and AE, and some mods simply don't work with AE because they haven't been updated. You can check [this page](https://modding.wiki/en/skyrim/users/skse-plugins) to see which SKSE plugins have been updated for AE.
+
+If you have Skyrim AE, you essentially have two options. You can either stick with AE (1.6.x) and use only the mods that have been updated for it, or you can [downgrade your game engine](https://www.nexusmods.com/skyrimspecialedition/mods/57618) to SE (1.5.97) and use whatever mods you want. What's nice about downgrading is that you can keep all of the CC content, allowing you to have the "best of both worlds".
+
+Downgrading and keeping the CC content is exactly what I did. When the AE upgrade was initially released, either option might have been reasonable. Now that there have been several AE updates, each one breaking compatibility with the Address Library for SKSE, I think the clear path forward is to simply disable Steam updates and downgrade to SE (1.5.97) for good. I don't expect modders to keep updating their mods for what appear to be inconsequential game engine updates.
+
 ## Detecting Mod Conflicts
 
 Mod conflicts happen when two mods edit the same content. For example, if one mod edits the name of a potion while another mod edits the effects of that potion, the two mods will conflict. In this case, whichever mod is loaded later will overwrite the other mod. A more common example is when two mods edit the same world space, such as a mod that overhauls city and a mod that makes a few changes to that city for a new quest.
@@ -540,3 +554,17 @@ Hopefully these measures will save you from 90% of crashes. But, if you are usin
 - If all else fails, your final option is to disable and re-enable mods one at a time until you reproduce the crash. It is the "brute force" approach, and it's last because it's the most time-consuming. To save some time, disable half of your mods at a time until the crash doesn't happen. Then, re-enable each mod from the last "half", one at a time, until the crash happens again. This approach should allow you to isolate the cause of just about any other crash.
 
 I learned some of these lessons the hard way. While I did try to install everything correctly, I forgot to scrutinize my plugin order because I thought Mod Organizer was syncing it with my mod order, when in fact these two things are independent. My game still worked for a while, but as I explored more of the world, I began to experience more crashes and other weirdness. I fixed most of these issues by correcting my load order and adding a few patches I had been missing (they were flagged by LOOT). The .NET Script Framework helped me identify a few mods that were consistently causing crashes, and I usually ended up removing these mods.
+
+## Additional Resources
+
+The guides I used:
+
+- [r/skyrimmods Guides](https://www.reddit.com/r/skyrimmods/wiki/index/#wiki_guides)
+- [Mern’s Mod Guides](https://www.skyrim-guild.com/guides-collection)
+
+The creators I follow:
+
+- [Camelworks](https://www.youtube.com/@Camelworks)
+- [FudgeMuppet](https://www.youtube.com/@FudgeMuppet)
+- [Heavy Burns](https://www.youtube.com/@HeavyBurns)
+- [Mern](https://www.youtube.com/@Mern)
