@@ -24,6 +24,7 @@ Consider this page a living guide, in which I maintain my knowledge of Skyrim mo
   - [Items](#items)
   - [NPCs](#npcs)
   - [Quests](#quests)
+  - [Patches](#patches)
   - [What About Creation Club?](#what-about-creation-club)
   - [What About Anniversary Edition?](#what-about-anniversary-edition)
 - [Detecting Mod Conflicts](#detecting-mod-conflicts)
@@ -84,9 +85,11 @@ I'm quite happy with the UI mods that I've settled on. All of these mods are sol
 I'll just highlight some of my favorites. Alternate Conversation Camera gives you an Oblivion-style dialogue zoom that feels more immersive (IMO). Immersive HUD allows you to keep your screen entirely HUD-free, while only displaying HUD elements when they are needed. Sovngarde is a font that feels much more like Elder Scrolls. The Loading Screens mod adds a bunch of beautiful and lore-friendly loading screens based on artwork from Elder Scrolls Legends.
 
 - Alternate Conversation Camera
+- Better Third Person Selection
 - Fuz Ro D-oh - Silent Voice
 - Immersive HUD
 - Nordic UI
+- Quickloot EE
 - SkyHUD
 - SkyUI
 - Sovngarde - A Nordic Font
@@ -327,6 +330,7 @@ I don't care that much about body mods because everyone is almost always clothed
 - Cathedral Player and NPC Overhaul
 - Diversity - A Character Overhaul
 - High Poly NPC Overhaul
+- Legacy of the Dragonborn Visual Overhaul
 - Modpocalypse NPCs
 - Pandorable's NPCs
 - RS Children Overhaul
@@ -450,6 +454,56 @@ I'll end with a few mods that provide some quality-of-life improvements rather t
 - Alternate Start - Live Another Life
 - At Your Own Pace
 - New Beginnings - Live Another Life Extension
+
+### Patches
+
+Here is the list of patches I currently use. Consider this list an illustrative example -- you should do your own research to figure out the correct patches for your mod list. See the following section on [detecting mod conflicts](#detecting-mod-conflicts).
+
+- Better Third Person Selection - Nordic UI Activation Button Replacer
+- QuickLoot EE - NORDIC UI
+- Odin - Vokrii Compatibility Patch
+- Reverb and Ambiance Overhaul - Alternate Start Patch
+- Reverb and Ambiance Overhaul - ELFX Patch
+- Window Shadows - ELFX Patch
+- Capital Windhelm Expansion - City Entrances Overhaul Patch
+- GQ959 - Capital Windhelm Expansion Patch
+- Capital Windhelm Expansion Patches
+- COTN Dawnstar Patch Collection
+- COTN Falkreath Patch Collection
+- COTN Morthal Patch Collection
+- COTN Winterhold Patch Collection
+- COTN Addon - Anga's Mill Patch Collection
+- COTN Addon - Half-Moon Mill Patch Collection
+- ES ICAIO Patch
+- ES RS Children Patch
+- ES Terrain Patch
+- ES USSEP Patch
+- ESD SMIM Patch
+- ESD Terrain Patch
+- ES ESD Patch
+- Palaces and Castles Enhanced Patch Collection
+- Quaint Raven Rock Patch Collection
+- Quaint Raven Rock - Ghosts of the Tribunal Patch
+- The Great Settlement of Darkwater Crossing Patch Collection
+- The Great Town of Ivarstead Patch Collection
+- The Great Town of Karthwasten Patch Collection
+- The Great Town of Shor's Stone Patch Collection
+- The Great Village of Kynesgrove Patch Collection
+- The Great Village of Mixwater Mill Patch Collection
+- The Great Village of Mixwater Mill Interesting NPCs Patch
+- The Great Village of Old Hroldan Patch Collection
+- Interesting NPCs SE - Cutting Room Floor SSE Patch
+- RS Children Patch Compendium
+- College of Winterhold - At Your Own Pace
+- College of Winterhold - RS Children Overhaul
+- Legacy of the Dragonborn Patches
+- Legacy of the Dragonborn - Interesting NPCs Patch
+
+Also, here are the patches you would need to use JK's Skyrim and JK's Interiors with everything else:
+
+- JK's Skyrim - Dawn of Skyrim - Patch
+- The Great Cities of JK's North - Patch
+- JK's Interiors Patch Collection
 
 ### What About Creation Club?
 
