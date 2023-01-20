@@ -513,39 +513,33 @@ Ultimately, I think most of the CC content is just fine. They are all high-quali
 
 - Adventurer's Backpack
 - Alternative Armors (all 15 of them)
+- Arcane Accessories
 - Arcane Archer Pack
 - Bittercup
 - Camping
 - Expanded Crossbow Pack
 - Fishing
-- Shadowrend
-- Survival Mode
-
-TBD:
-
-- Arcane Accessories
-- Dwarven Armored Mudcrab
-- Forgotten Seasons
-- Ghosts of the Tribunal
-- Nchuanthumz: Dwarven Home
 - Necromantic Grimoire
 - Netch Leather Armor
 - Nix-Hound
 - Rare Curios
 - Ruin's Edge
-- Staff of Sheogorath
+- Shadowrend
+- Survival Mode
 
 The Alternative Armors collection was probably my favorite, because all of the armor sets are connected by a commen story, the rise and fall of the Crimson Dirks. It was great fun to find each armor set and learn about the Crimson Dirk who wore it. And while I dropped most of the other weapon and armor mods, I kept Shadowrend in particular because of the... unique combat challenge that it provides.
 
 Many of the other CC mods were dropped because they add artifacts that are already covered by other mods such as Legacy of the Dragonborn, The Gray Cowl of Nocturnal, and There is No Umbra. Additionally, the team behind Skyrim: Extended Cut released an [extended cut of Saints and Seducers](https://www.nexusmods.com/skyrimspecialedition/mods/72772). So far, I have enjoyed these mods more than their CC counterparts.
 
-Here are the CC mods already covered by Legacy of the Dragonborn:
+Here are the CC mods whose artifacts are also added by Legacy of the Dragonborn:
 
 - Bow of Shadows
 - Chrysamere
 - Dawnfang & Duskfang
 - Dead Man's Dread
 - Divine Crusader
+- Gallows Hall
+- Ghosts of the Tribunal
 - Goldbrand
 - Lord's Mail
 - Staff of Hasedoki
@@ -553,7 +547,9 @@ Here are the CC mods already covered by Legacy of the Dragonborn:
 - Sunder & Wraithguard
 - The Contest
 
-Like I said before, all of the CC mods are good, and any one of them could make a fine addition to the right playthrough. Depending on your mod setup or character build, you might choose differently from me. Lots of people like to dunk on the Creation Club because they don't like the concept of it, which I understand, but I don't feel strongly about it either way. I'm just very minimalist with mods, especially small mods, so most of the CC content just doesn't make the cut.
+I was actually disappointed by Ghosts of the Tribunal and The Cause, however, because they were hyped as "DLC-sized quest mods", and they really didn't live up to the hype. They were larger than the other CC mods, but the quests just weren't very interesting. I think it's because all of the CC mods reuse vanilla dialogue, so the NPCs say a few brief lines and give you notes for everything else. I enjoyed the nostalgia, like finding potions and gear from Morrowind, but that's all it was -- nostalgia -- and I don't think it worked with the lore.
+
+But, I will say again, all of the CC mods are good mods, and any one of them could make a fine addition to the right playthrough. Depending on your mod setup or character build, you might choose differently from me. Lots of people like to dunk on the Creation Club because they don't like the concept of it, which I understand, but I don't feel strongly about it either way. I'm just very minimalist with mods, especially small mods, so most of the CC content just doesn't make the cut.
 
 (And yes, for the amount of coverage I'm getting, the ~150 mods that I use are pretty minimal!)
 
@@ -593,7 +589,7 @@ Skyrim can crash for a lot of different reasons, so the solution will depend on 
 
 First things first, you should take steps to prevent crashes in the first place:
 
-- WHen you install a mod, make sure to install all of its dependencies. On Nexus, you can find a mod's dependencies under the **Requirements** dropdown, and Nexus will usually alert you about them anyway when you download a mod.
+- When you install a mod, make sure to install all of its dependencies. On Nexus, you can find a mod's dependencies under the **Requirements** dropdown, and Nexus will usually alert you about them anyway when you download a mod.
 
 - Make sure your mod plugins are ordered sensibly: ESMs should be first, plugins should not be missing any required plugins, and plugins should come after their required plugins. In MO2, you can check all of these things under the **Plugins** tab. Plugins will show an alert icon if they are missing any dependencies.
 
