@@ -29,7 +29,7 @@ So, what about biological sex? Must we conclude that sex is actually a spectrum,
 
 ## Distributions
 
-The world is a myserious place, and there are many things that we don't understand. Despite everything we have discovered up to this point, if anything we have only become more aware of how litle we know. In other words, we live with a great deal of uncertainty, and until we discover the One True Law of Everything, we need a way to manage uncertainty. So, we came up with the idea of distributions.
+The world is a mysterious place, and there are many things that we don't understand. Despite everything we have discovered up to this point, if anything we have only become more aware of how little we know. In other words, we live with a great deal of uncertainty, and until we discover the One True Law of Everything, we need a way to manage uncertainty. So, we came up with the idea of distributions.
 
 When you flip a coin, you don't know which side you'll get. You could try to use physics model it down to the last detail, like which side it starts on, the orientation of your hand, how you flip it, the effect of gravity and wind, and so on, until you can predict the outcome. But you don't want to do that.
 

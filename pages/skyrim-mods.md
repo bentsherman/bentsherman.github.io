@@ -1,4 +1,6 @@
-# Skyrim Mods Research
+# Skyrim Mods
+
+_Epistemic Status: basically done_
 
 I've been playing Elder Scrolls games since I was in elementary school. To the extent that I am a gamer, it's mostly because I've' sunk thousands of hours into these games. That's why I continue to play them 10, 15, 20 years later, and I'll probably keep playing them for the rest of my life.
 
@@ -400,9 +402,11 @@ Here are the mods that I really enjoyed:
 - Enderal
 - Faction - Pit Fighter
 - Helgen Reborn
+- Legacy of the Dragonborn
 - Project AHO
 - The Bottomless Pit
 - The Forgotten City
+- Trainwiz' The Wheels of Lull
 
 Here are the mods that I thought were just okay:
 
@@ -416,7 +420,6 @@ The mods I'm currently playing through:
 
 - Carved Brink
 - Leaps of Faith - A Misc Quest
-- Legacy of the Dragonborn
 - Quest Expansions by jayserpa
 - The Gray Cowl of Nocturnal
 - There Is No Umbra - Chapter II
@@ -440,7 +443,6 @@ The mods I want to play (mods marked WIP haven't been released at the time of wr
 - Trainwiz' Blackreach Railroad
 - Trainwiz' Brhuce Hammar Legacy
 - Trainwiz' The Lost Wonders of Mzark
-- Trainwiz' The Wheels of Lull
 - Undeath Remastered
 - UNSLAAD
 - VIGILANT

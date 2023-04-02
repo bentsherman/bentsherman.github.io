@@ -75,7 +75,7 @@ This complex structure can be represented as a multi-layer graph, where each lay
 A matching question is a test question with two lists of items (e.g. terms and definitions) in some arbitrary order. Each item in one list is paired with one item in the other list, and you must match each pair. The answer to a matching question is just a map, so it has the same graph representation -- one node for each item, and edges connecting each matching pair.
 
 <center>
-<img src="http://personal.psu.edu/bxb11/QuizQuestions/media/Matching.png" alt="matching question"/>
+<img src="http://personal.psu.edu/bxb11/QuizQuestions/media/Matching.png" alt="matching question" width="200px"/>
 </center>
 
 ## Choose Your Own Adventure stories
