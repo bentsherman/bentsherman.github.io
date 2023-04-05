@@ -1,6 +1,6 @@
 # Everyday Maths
 
-_Epistemic status: work in progress_
+*Epistemic status: work in progress*
 
 A collection of mathematical concepts that will help you navigate the deep, dark, murky digital ocean (and maybe the real one too). I hope I can explain these ideas in ways that anyone will understand.
 
@@ -56,4 +56,4 @@ The Pareto principle is a very powerful idea, because when applied correctly, it
 
 Sometimes, the relationship between a cause and an effect might be different depending on the situation. For example, earlier I gave height as an example of a normal distribution. Clearly, if you collect the heights of everyone from babies to seniors, you won't get a bell curve, because people get taller as they get older. But, if instead you separate the data by age, then you'll see a bell curve within each age group. A statistician might call this **disaggregation**, "removing a confounding variable", or "controlling for age". Basically, you need to watch out for hidden variables when you're trying to understand the relationship between two things.
 
-Here's a trickier example. I also said earlier that the top 20% should pay 80% of taxes. Actually, they already do, more or less. However, just because the wealthiest people pay the majority of all taxes, doesn't mean that the tax regime is fair. What matters is whether everyone across the board pays the same _rate_ of taxes based on their income. In other words, we need to separate out the tax data by income, and see if the tax rate is constant. If you do this analysis, you will find that the wealthy pay a much lower tax rate than everyone else. There are many reasons, but it is primarily because the wealthy receive most of their income from investments, which are taxed at lower rates and often qualify for more tax deductions than income from a job. In this case, the _tax law itself_ was a hidden variable.
+Here's a trickier example. I also said earlier that the top 20% should pay 80% of taxes. Actually, they already do, more or less. However, just because the wealthiest people pay the majority of all taxes, doesn't mean that the tax regime is fair. What matters is whether everyone across the board pays the same *rate* of taxes based on their income. In other words, we need to separate out the tax data by income, and see if the tax rate is constant. If you do this analysis, you will find that the wealthy pay a much lower tax rate than everyone else. There are many reasons, but it is primarily because the wealthy receive most of their income from investments, which are taxed at lower rates and often qualify for more tax deductions than income from a job. In this case, the *tax law itself* was a hidden variable.

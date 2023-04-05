@@ -2,11 +2,11 @@
 
 How to make your money work for you, or whatever
 
-_Epistemic status: basically done, definitely not financial advice_
+*Epistemic status: basically done, definitely not financial advice*
 
 ## Introduction
 
-In 2019, a friend and mentor of mine recommended a book to me called _Rich Dad Poor Dad_. The insights in this book seem so simple in retrospect, but it was really impactful when I read it. It changed my outlook on life. The book's premise, in a nutshell, is:
+In 2019, a friend and mentor of mine recommended a book to me called *Rich Dad Poor Dad*. The insights in this book seem so simple in retrospect, but it was really impactful when I read it. It changed my outlook on life. The book's premise, in a nutshell, is:
 
 1. Poor people make money by working, rich people make money by investing
 2. Invest money to generate passive income

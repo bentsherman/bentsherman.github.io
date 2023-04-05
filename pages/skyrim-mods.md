@@ -1,6 +1,6 @@
 # Skyrim Mods
 
-_Epistemic Status: basically done_
+*Epistemic Status: basically done*
 
 I've been playing Elder Scrolls games since I was in elementary school. To the extent that I am a gamer, it's mostly because I've' sunk thousands of hours into these games. That's why I continue to play them 10, 15, 20 years later, and I'll probably keep playing them for the rest of my life.
 
