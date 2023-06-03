@@ -15,3 +15,14 @@ Prefect's idea of positive vs negative engineering.
 Gradual adoption of ideas from functional programming: maps, filters, reductions, promises, maybe monads.
 
 Future of programming (procedural, functional, Rust)
+
+Different ways to visualize code, multi-layer dataflow graph
+
+Interactive programming environments, incorporate batch vs streaming article?
+
+Data science frontends
+- Excel + SQL + Jupyter + Figma
+- Enso
+- Hex
+
+Theory of computation, language models (separate from semiconductor technology)
