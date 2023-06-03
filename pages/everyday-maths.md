@@ -1,31 +1,36 @@
 # Everyday Maths
 
+*Rules for a Data-Driven Life*
+
 *Epistemic status: work in progress*
 
 A collection of mathematical concepts that will help you navigate the deep, dark, murky digital ocean (and maybe the real one too). I hope I can explain these ideas in ways that anyone will understand.
 
-- correlation does not imply causation
-- multiple factor analysis
-- Bayes rule
-- functions
-- stacks and queues
-- everything is graphs
-- theories of value
-- compound interest
-- equilibria
-- objective functions
-- probability and risk
-- priors and stereotypes
+## Bayes rule
 
-## Categories and continuums
+TODO: sometimes prior assumptions (stereotypes) are useful
 
-There are two types of data: categorical and continuous. **Categorical data** can be separated into discrete bins (or categories), such as a light switch being on or off, or days of the week. **Continuous data** can be any point on a line, such as height and weight, temperature, or the passage of time.
+## Categorical and continuous
 
-That's all well and good, but let's look at a real world example: biological sex. We generally think of sex as a binary category, male or female, which is determined by whether a person has XY or XX chromosomes. This model seems to be correct most of the time... but there are interesting exceptions. Some people have only one sex chromosome, or three of them. On top of that, you can alter the levels of certain hormones in your body -- i.e. testosterone and estrogen -- which are continuous quantities by the way -- to become "more male" or "more female".
+There are two kinds of data: categorical and continuous. **Categorical data** can be separated into discrete bins (or categories), such as a light switch being on or off, or days of the week. **Continuous data** can be any point on a line, such as height, weight, temperature, or the passage of time.
 
-You probably weren't expecting a page about everyday maths to swerve towards a hot-button political topic. But that is exactly why these concepts are so useful -- they will help you to understand and think critically about the world in which you live, in all aspects. You can use these ideas, like the dichotomy of categorical data and continuous data, to reason about a basic maths problem or to better understand a complex social issue.
+This dichotomy is nice and clean, so let's consider a real-world example that breaks it: biological sex.
 
-So, what about biological sex? Must we conclude that sex is actually a spectrum, that male and female are arbitrary constructs? I don't know if math can provide us with a definitive answer; your answer will likely come from your own values. Personally, I think male and female are real things. They may not be strict categories like a light switch being on or off, but they represent the vast majority of people. In other words, I see it as a bimodal distribution. More on that later.
+Sex is generally considered a binary *category* -- male or female -- which is determined by whether a person has XY or XX chromosomes. But some people have only one sex chromosome, or three of them. Furthermore, you can alter the levels of certain hormones in your body -- i.e. testosterone and estrogen, which are *continuous* quantities -- to become "more male" or "more female".
+
+What do we do with this? Maybe sex actually isn't a category, male and female are just arbitrary concepts, and we should discard the whole thing because it just makes people feel bad about themselves. Maybe male and female are meaningful categories, albeit with some interesting outliers, and we should definitely appreciate the differences between them if we want the human species to continue. Maybe you weren't expecting a page about "everyday maths" to quickly swerve towards such a contentious political topic.
+
+Messy concepts like biological sex are exactly why the concept of data is so useful. They will make you think critically about the world in which you live. Rather than make the world fit into clean models, seek models that fit the world in all its messiness. Use these ideas to reason equally about a simple maths problem or a complex philosophical question.
+
+And as for biological sex, hopefully you can tell from how I worded the various possible conclusions, which one I hold.
+
+## Compound interest
+
+TODO: you can benefit from it, or it can benefit from you
+
+## Correlation and causation
+
+TODO: correlation does not imply causation
 
 ## Distributions
 
@@ -52,8 +57,40 @@ Now, these phenomena may not be exactly 80/20, and they may only apply under cer
 
 The Pareto principle is a very powerful idea, because when applied correctly, it can actually help you make decisions in your life. If 80% of your productivity comes from only 20% of the things you spend time on, then maybe you should focus more on that 20%. If 80% of the wealth is owned by 20% of the population, then the top 20% should be paying (at least) 80% of taxes. Now there's a hot political take!
 
+## Equilibrium
+
+TODO: some are stable and some are unstable, learn how to tell the difference
+
+## Functions
+
+TODO: any action can be described as a function, if you have a hard time understanding how something works, try to describe it as a function, what are its inputs? what are its outputs?
+
+## Graphs
+
+TODO: everything is a graph, if you have a hard time understanding a thing, try to describe it as a graph
+
 ## Hidden variables
 
 Sometimes, the relationship between a cause and an effect might be different depending on the situation. For example, earlier I gave height as an example of a normal distribution. Clearly, if you collect the heights of everyone from babies to seniors, you won't get a bell curve, because people get taller as they get older. But, if instead you separate the data by age, then you'll see a bell curve within each age group. A statistician might call this **disaggregation**, "removing a confounding variable", or "controlling for age". Basically, you need to watch out for hidden variables when you're trying to understand the relationship between two things.
 
 Here's a trickier example. I also said earlier that the top 20% should pay 80% of taxes. Actually, they already do, more or less. However, just because the wealthiest people pay the majority of all taxes, doesn't mean that the tax regime is fair. What matters is whether everyone across the board pays the same *rate* of taxes based on their income. In other words, we need to separate out the tax data by income, and see if the tax rate is constant. If you do this analysis, you will find that the wealthy pay a much lower tax rate than everyone else. There are many reasons, but it is primarily because the wealthy receive most of their income from investments, which are taxed at lower rates and often qualify for more tax deductions than income from a job. In this case, the *tax law itself* was a hidden variable.
+
+## Multiple factor analysis
+
+TODO: a thing rarely has only one cause
+
+## Objective functions
+
+TODO: we are all driven by goals and objectives, whether we realize it or not. what objective function are you trying to optimize?
+
+## Probability and risk
+
+TODO: everything we do carries risk, but how do we decide whether something is "too risky"? it can be useful to compare things with similar risk to keep our brains in check
+
+## Stacks and queues
+
+TODO: we all work towards goals, but how do we prioritize each task?
+
+## Theories of value
+
+TODO: is it the cost of production? or is it what people are willing to pay? learn how to tell how someone is trying to value you
