@@ -1,5 +1,3 @@
 # Why I Believe
 
-TODO
-
-Why I believe in God.
+God cannot be explained, He must be experienced.
