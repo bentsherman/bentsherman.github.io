@@ -92,15 +92,44 @@ TODO:
 - advantages of batching vs streaming
 - interactive computing as code streaming
 
-## Data science frontends
+## Humane programming
 
-TODO: some combination of Excel + SQL + Jupyter + Figma could be the ultimate data science tool.
+There are over [300 workflow systems](https://github.com/common-workflow-language/common-workflow-language/wiki/Existing-Workflow-systems) out there, and a number of [data science frontends](https://datasciencenotebook.org/) as well. These two technologies are going through their gold rush period right now -- everyone is racing to make their own version of the same thing, hoping that their version will win out.
+
+I think these two technologies are in a gold rush because they each move us closer to the idea of *humane programming*. Today, programming is difficult because it requires you to think like a computer. What if programming instead felt as natural as playing with legos, molding clay, gardening, cooking, playing a sport... the things that make you feel alive and fill you with joy? Programming could be like that one day, if we can find the right physical analogy in which to root it.
+
+There are a few software tools that have given us a glimpse of that future:
+
+- [Excel](https://www.microsoft.com/en-us/microsoft-365/excel): The way I see it, Excel was the original workflow system, and the only reason why there are over 300 other workflow systems today is because Excel never scaled beyond a single computer. I would not be surprised if, 50 years from now, after the dust has settled from the workflow wars, we are all just using a more scalable version of Excel. But more on that later.
+
+- [SQL](https://en.wikipedia.org/wiki/SQL): They say that every "new" programming language idea that you see today was figured out in the 60's and 70's. SQL is one of them. It's a query language that even non-programmers can understand. It may not cover every single use case, but it's pretty darn close, and no alternative has come close to surpassing it.
+
+- [Jupyter](https://jupyter.org/): My favorite way to use my university cluster was through JupyterLab. You can browse and edit files, open a terminal, and run a *notebook*. A notebook is a kind of structured REPL session, a [research artifact](https://nbconvert.readthedocs.io/en/latest/) that can be iteratively developed from nothing.
+
+- [Git](https://git-scm.com/): I know that Git as a command-line interface isn't the most user-friendly, but web platforms like [GitHub](https://github.com/) have basically solved that problem. More importanely, the key idea here is managing your information as version-controlled plain text. It is a surprisingly powerful way to manage an organization, and I think many sectors aside from software engineering would benefit from using it. Imagine if the entire [United States Code](https://en.wikipedia.org/wiki/United_States_Code) was managed on GitHub and every bill was just a PR...
+
+- [Figma](https://www.figma.com/): Not even a programming tool, but from the few times that I've interacted with it, what I like about it is that it gives you a blank canvas. All creative tools -- and programming is a creative activity -- should start with a blank canvas.
+
+Like I said, each of these tools provide a glimpse, a piece of what could be the ultimate humane programming experience. And today you can use all of these tools together, but try to imagine a system that integrates the key underlying *concepts* of these tools...
+
+- Start with a blank canvas (Figma). Not an empty text file, not an empty spreadsheet, a blank canvas.
+
+- From here, you can drop in things like a spreadsheet (Excel) or notebook (Jupyter) or computation (SQL query, Bash script, Nextflow pipeline), but you are not constrained within any one medium.
+
+- Items in the canvas are connected to each other when there is a data dependency (e.g. when you reference a spreadsheet as an input to a script). In this way, the canvas is like a workflow, but it's your *personal* workflow, the *thing you are trying to do*.
+
+- Like equations in Excel, updating an item automatically updates any downstream items (e.g. updating a spreadsheet causes a downstream script to be re-executed). The system can delegate heavy computations to a cloud provider or HPC system (Nextflow, Seqera Platform).
+
+- The canvas is backed by some kind of file system which allows for items to reference each other. The canvas itself has a plain-text representation (basically a DAG with some metadata) and the items are just different kinds of files, so the whole thing can be version controlled (Git). Large datasets can reside in remote storage (e.g. S3), which the file system should be able to reference transparently (e.g. FUSE).
+
+- The system should be "open" (Seqera Platform), meaning that you can connect a canvas to your own compute environment (e.g. AWS Batch, HPC system), storage (e.g. S3 buckets), and version control (e.g. GitHub repository). The system could offer a bespoke compute environment for those who don't want to deal with cloud infrastructure, but for code and data it should integrate with existing systems, no "black boxes".
+
+I call this system "humane" because it gives the user a physical analogy of the top-line thing they are trying to do, which for a scientist is almost always to answer some kind of question. Our computational tools are so complex that we ofetn get bogged down in the details of tooling. We toil for days, weeks, months, trying to get some tool or system to work... but what was the question we were trying to answer in the first place? The canvas allows us to confront that question directly, and see our progress in answering it, as every spreadsheet, script, notebook is one step along the path to the final answer.
+
+I think we are really close to achieving this vision. Two tools that come to mind are [Hex](https://hex.tech/) and [Seqera](https://seqera.io/), which if combined would probably be the ultimate programming tool for computational science. I would also like to try to apply this idea to software engineering in general, but I'm not sure yet if it makes sense to do so.
 
 See also:
-- Enso
-- Hex
-
-See also also:
+- [Enso](https://enso.org/)
 - [Eve](https://witheve.com/)
 - [Glamorous Toolkit](https://gtoolkit.com/)
 - [Plain English Programming](https://osmosianplainenglishprogramming.blog/)
@@ -124,6 +153,7 @@ TODO:
 - Optional typing (Groovy, Mojo)
 - Garbage collection (Java, Go, OCaml)
 - Options (Haskell, OCaml, Rust)
+- Pattern matching (Haskell, OCaml, Rust)
 - REPL (JavaScript, Python)
 - Pipes (Bash, Elixir, Nextflow)
 - Return last statement (Groovy, Rust, Scala)
