@@ -348,8 +348,12 @@ Companion mods are some of my favorite mods, right alongside quest mods. If you 
 
 Here are the companions I've enjoyed so far:
 
+- Hoth
 - INIGO
 - Lucien
+- Serana Dialogue Add-On
+- Shirley
+- Skeever
 - Sofia
 - Song of the Green (Auri Follower)
 - Vilja in Skyrim
@@ -359,14 +363,10 @@ And some other mods that I want to try:
 - Ambriel - The Lost Princess
 - Arissa - The Wandering Rogue
 - Aurlyn Dawnstone - The Reclusive Philosopher
-- Hoth
 - Kaidan 2
 - Mirai - the Girl with the Dragon Heart
 - Nebarra
 - Recorder
-- Serana Dialogue Add-On
-- Shirley
-- Skeever
 
 The biggest question I had with companion mods was how to have more than one follower at a time. As it turns out, most of these companion mods implement their own "follower quest", which means that they aren't beholden to the normal one-follower limit. So you could have most of these companions following you at the same time and still have one vanilla follower.
 
@@ -406,10 +406,13 @@ Here are the mods that I really enjoyed:
 - Project AHO
 - The Bottomless Pit
 - The Forgotten City
+- The Gray Cowl of Nocturnal
+- There Is No Umbra
 - Trainwiz' The Wheels of Lull
 
 Here are the mods that I thought were just okay:
 
+- Carved Brink
 - Falskaar
 - Here There Be Monsters
 - Moon and Star
@@ -418,11 +421,8 @@ Here are the mods that I thought were just okay:
 
 The mods I'm currently playing through:
 
-- Carved Brink
 - Leaps of Faith - A Misc Quest
 - Quest Expansions by jayserpa
-- The Gray Cowl of Nocturnal
-- There Is No Umbra - Chapter II
 
 The mods I want to play (mods marked WIP haven't been released at the time of writing):
 
@@ -435,7 +435,7 @@ The mods I want to play (mods marked WIP haven't been released at the time of wr
 - Rigmor of Bruma
 - Rigmor of Cyrodiil
 - Shezarrine - The Fate of Tamriel - Prologue
-- Sirenroot (WIP)
+- Sirenroot
 - Skyblivion (WIP)
 - Skyrim: Extended Cut (WIP)
 - Skywind (WIP)
