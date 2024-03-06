@@ -1,5 +1,7 @@
 # Workflows All the Way Down
 
+*And other insights on computation*
+
 *Epistemic status: work in progress*
 
 One day I felt the unction to write some sort of grand theory. I had been using Nextflow for a while and I began to see "workflows" everywhere (I still do, but we'll get into that later), so I thought I might be able to make some deeper observation about the nature of programming and computation.
@@ -10,7 +12,7 @@ I think what really happened is that I finally had time to get exposed to the wi
 
 Still, I don't want these ideas or the spark they gave me to fade away. So I'm just going to log the good ones as I discover them, with hope that a greater pattern might emerge, that grand journey towards humane programming, and unbounded computation.
 
-## Workflows All the Way Down
+## Workflows all the way down
 
 A workflow is a graph (i.e. network) of tasks connected to each other based on their dependencies. If task A is connected to task B, that means that B depends on A in some way.
 
@@ -134,9 +136,11 @@ See also:
 - [Glamorous Toolkit](https://gtoolkit.com/)
 - [Plain English Programming](https://osmosianplainenglishprogramming.blog/)
 
-## WebAssembly
+## Compilers
 
-TODO: WebAssembly could become the universal compiler / interpreter, lightweight alternative to containers and VMs
+TODO:
+- WebAssembly as universal compiler / interpreter, lightweight alternative to containers and VMs
+- Mojo/MLIR as best of both worlds, productivity and performance
 
 ## Hypermedia
 
@@ -148,12 +152,12 @@ TODO:
 - Procedural by default (C++, Python, Rust)
 - First-class functions (everyone except C)
 - Variables immutable by default (Rust)
-- Threads (Java)
+- Dataflow concurrency (Nextflow, Go)
 - Returning errors with shorthand (Rust, Zig)
 - Optional typing (Groovy, Mojo)
 - Garbage collection (Java, Go, OCaml)
 - Options (Haskell, OCaml, Rust)
 - Pattern matching (Haskell, OCaml, Rust)
 - REPL (JavaScript, Python)
-- Pipes (Bash, Elixir, Nextflow)
+- Pipes (Bash, Elixir, Nextflow, OCaml)
 - Return last statement (Groovy, Rust, Scala)
